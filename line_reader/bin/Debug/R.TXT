@@ -1,0 +1,974 @@
+PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     1
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+0016 ATT.!!!- ORE SETTIMANANALI <>         273                 0                                                                  6
+0026 ATT.!!! - MANCA DETR.PROD.REDD          4                 0                                                                  4
+0041 ATT.!!! - STRAORDINARI SQUADRA          7,50              0                                                                  3
+0042 ATT.!!! - PRESENZA VOCE 6002            1                 0,25-                                                    0,25-     1
+0043 ATT.!!! - PRESENZA VOCE 9941            1                 0,18-                                                    0,18-     1
+0090 VAR.MESE: ISCR.FONCHIM                  5                 1                                                        5         5
+0250 SUPERMINIMO INCREMENTO MESE             6               104,30                                                   625,82      6
+0300 PERCENTUALE PART-TIME             159.490,57              0                                                               1608
+0305 PERCENTUALE APPRENDISTATO         160.800                 0                                                               1608
+0306 NUMERO GIORNI SETTIMANALI           8.040                 0                                                               1608
+0308 ORARIO SETTIMANALE CCNL            63.267                 0                                                               1608
+0309 ORARIO SETTIMANALE PART-TIME       62.756                 0                                                               1608
+0310 DIVISORE ORARIO MENSILE CCNL      281.228                 0                                                               1608
+0311 DIVISORE GIORNALIERO CCNL          40.286                 0                                                               1608
+0312 DIVISORE GIORNALIERO ASSENZE M     47.360                 0                                                               1608
+0313 DIVISORE GIORNALIERO ASSENZE M     47.140                 0                                                               1608
+0314 DIVISORE GIORNALIERO INAIL         40.200                 0                                                               1608
+0318 FLAG MESE SU MESE                   1.608                 0                                                               1608
+0319 FLAG CESSATO DEL MESE                  16                 0                                                                 16
+0320 FLAG ASSUNTO DEL MESE                  10                 0                                                                 10
+0321 FLAG CONTRIBUZIONE APP./MOB.           25                 0                                                                 18
+0322 FLAG ESTERO CONVENZIONATO               1                 0                                                                  1
+0324 FLAG ESTERO NON CONVENZIONATO           1                 0                                                                  1
+0325 FLAG TIPO PAGAMENTO VOCE 1000       3.216                 0                                                               1608
+0330 FLAG FASCIA NUM. DIPENDENTI AZ      9.648                 0                                                               1608
+0334 FLAG DETAX: NON APPLICABILITA'      1.608                 0                                                               1608
+0340 FLAG MM INIZIO MATURAZIONE FER      1.608                 0                                                               1608
+0341 FLAG MM INIZIO MATURAZIONE P.A      1.608                 0                                                               1608
+0342 FLAG MM INIZIO MATURAZIONE P.I      1.608                 0                                                               1608
+0343 FLAG MM INIZIO MATURAZIONE B.H      1.608                 0                                                               1608
+0346 FLAG MM INIZIO MATURAZIONE 13M      1.608                 0                                                               1608
+0347 FLAG MM INIZIO MATURAZIONE 14M      1.608                 0                                                               1608
+0350 NUMERO MENSILITA' ANNUE            22.512                 0                                                               1608
+0351 FLAG MESE PAGAMENTO 13MA           17.688                 0                                                               1608
+0352 FLAG MESE PAGAMENTO 14MA            9.648                 0                                                               1608
+0363 FLAG N.MENSILITA TRAT.SINDACAL     20.904                 0                                                               1608
+0365 FLAG MOLTIPLICATORE PER IRPEF      19.296                 0                                                               1608
+0366 FLAG RIDUZ.FISCALE RIENTRATI          180                 0                                                                  2
+0371 FLAG TFR: MESE RILEVAMENTO OPZ      1.608                 0                                                               1608
+0372 FLAG TFR: ANTICIPO CASSA F.T.       1.608                 0                                                               1608
+0373 FLAG TFR: MATURAZIONE PARTE FI      1.598                 0                                                               1598
+0374 FLAG TFR: MATURAZIONE MESE SU       1.608                 0                                                               1608
+0375 FLAG TFR: FLAG LIQUIDAZIONE            16                 0                                                                 16
+0377 FLAG TFR: APPL.CLAUSOLA DI SAL      1.608                 0                                                               1608
+0379 FLAG TFR: MATURAZIONE PT/FT       158.490,57              0                                                               1598
+0394 FLAG ULTIMO MESE RATEIZ.IRPEF      16.080                 0                                                               1608
+0400 GG LAVORATIVI DEL MESE (E/16)      32.034                 0                                                               1608
+0401 GG LAVORATIVI DEL MESE (E/04)      32.034                 0                                                               1608PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     2
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+0403 ORARIO GIORNALIERO FULL-TIME       12.653,40              0                                                               1608
+0404 ORARIO GIORNALIERO PART-TIME       12.551,20              0                                                               1608
+0405 HH LAVORATIVE DEL MESE (DA E/1    250.034,20              0                                                               1608
+0406 DIVISORE ORARIO MENSILE CCNL P    278.936,56              0                                                               1608
+0407 DIVISORE ORARIO ANNUO INPS      3.216.000                 0                                                               1608
+0408 DIVISORE ORARIO ANNUO CCNL      3.375.080                 0                                                               1608
+0410 GG DA RETRIBUIRE DEL MESE (E/7     40.094                 0                                                               1607
+0415 HH DA RETRIBUIRE DEL MESE         277.748,56              0                                                               1607
+0420 GG ALL'ESTERO DEL MESE                 52                 0                                                                  2
+0430 PERCENTUALE DI LORDIZZAZIONE      145.605,78              0                                                               1608
+0435 COEFF.RIVALUTAZIONE MONETARIA       1.608             2.650,56                                             4.262.100,48   1608
+0436 COEFF.RIVALUTAZIONE MONETARIA       1.608             3.900,56                                             6.272.100,48   1608
+0442 MM ANZIANITA': MESI DI PREAVVI         16                 0                                                                  6
+0443 MM ANZIANITA': TOTALE AL M.C.     237.548                 0                                                               1603
+0444 MM ANZIANITA': MATURAZIONE M.C      1.598                 0                                                               1598
+0445 MM ANZIANITA': PERDITA PT M.C.         13,07              0                                                                 53
+0446 MM ANZIANITA': ABB.TO TFR ANTE     60.571                 0                                                                625
+0450 FLAG ATTIVAZIONE CONGUAGLIO CO         16                 0                                                                 16
+0451 MESI DI PREAVVISO TOTALI               16                 0                                                                  6
+0452 MESI DI PREAVVISO A.C.                 16                 0                                                                  6
+0457 FLAG ATTIVAZIONE CONGUAGLIO FI         16                 0                                                                 16
+0458 FLAG ATTIVAZIONE ADDIZ. IRPEF          16                 0                                                                 16
+0460 FLAG PERIODO DI PROVA                   5                 0                                                                  5
+0488 TRATTAMENTO MINIMO CONTRATTUAL         86            70.709,30                                             6.081.000        86
+0489 TRATTAMENTO MINIMO CONTRATTUAL         86             5.892,44                                               506.750,13     86
+0490 DETRAZIONI: NUMERO FIGLI HAND.          9,50              0                                                                 13
+0495 FATTORE DI MOLTIPLICAZIONE          1.608             1.000                                                1.608.000      1608
+0500 MINIMO CONTRATTUALE                 1.522             1.879,40                                             2.860.460,73   1522
+0520 SCATTI: IMPORTO UNITARIO               86               129,11                                                11.103,46     86
+0640 E.A.R. 1.1.2008                       587               100                                                   58.700       587
+0650 S.M. AD PERSONAM NON ASSORBIBI      1.229                59,34                                                72.930,19   1229
+0695 I.P.O.                              1.513               204,38                                               309.230,35   1513
+0705 E.A.R. QUADRI                         310               190                                                   58.900       310
+0710 TRATTAMENTO ECONOMICO INDIVIDU         86             8.818,19                                               758.364,69     86
+0801 SUPERMINIMO                         1.245               725,44                                               903.182,33   1245
+0802 PREMIO PRODUZIONE\ISM               1.522               166,57                                               253.523,74   1522
+0889 VOCI NO 14 PER BASE 14              1.262               808,86                                             1.020.782,33   1262
+0890 RETR.MESE PUNTO 1 ART.15 CCNL       1.522             2.723,91                                             4.145.803,60   1522
+0891 RETR.GG PUNTO 1 EX.ART.15           1.522           108.956,73                                           165.832.144      1522
+0892 RETR. HH PUNTO 1 EX.ART.15          1.522            15.565,24                                            23.690.306,28   1522
+0900 RETRIBUZIONE TEORICA MENSILE        1.608             3.280,65                                             5.275.292,03   1608
+0902 RETRIBUZIONE MENSILE P.T.           1.608             3.260,82                                             5.243.398,70   1608
+0903 RETRIBUZIONE MENSILE P.T. (PER      1.608             3.260,82                                             5.243.398,70   1608
+0905 BASE GIORNALIERA                    1.608               130,50                                               209.845,10   1608
+0906 BASE GIORNALIERA P.T.               1.608               129,70                                               208.569,42   1608
+0907 BASE*495 GIORNALIERA                1.608           130.500,60                                           209.844.966,31   1608
+0908 BASE*495 GIORNALIERA P.T.           1.608           129.707,23                                           208.569.232,41   1608
+0909 BASE GIORNALIERA P.T. [MP/MC]       1.608               129,70                                               208.569,42   1608PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     3
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+0910 BASE GIORNALIERA NO EDR             1.608               130,50                                               209.845,10   1608
+0911 BASE GIORNALIERA NO EDR P.T.        1.608               129,70                                               208.569,42   1608
+0912 BASE*495 GIORNALIERA NO EDR         1.608           130.500,60                                           209.844.966,31   1608
+0913 BASE*495 GIORNALIERA NO EDR P.      1.608           129.707,23                                           208.569.232,41   1608
+0915 BASE ORARIA                         1.608                18,77                                                30.194,91   1608
+0916 BASE ORARIA P.T.                    1.608                18,66                                                30.012,63   1608
+0917 BASE*495 ORARIA                     1.608            18.777,75                                            30.194.624,25   1608
+0918 BASE*495 ORARIA P.T.                1.608            18.664,41                                            30.012.376,55   1608
+0919 BASE*495 ORARIA [MP/MC]             1.608            18.777,75                                            30.194.624,25   1608
+0920 BASE ORARIA NO EDR                  1.608                18,77                                                30.194,91   1608
+0921 BASE ORARIA NO EDR P.T.             1.608                18,66                                                30.012,63   1608
+0922 BASE*495 ORARIA NO EDR              1.608            18.777,75                                            30.194.624,25   1608
+0923 BASE*495 ORARIA NO EDR P.T.         1.608            18.664,41                                            30.012.376,55   1608
+0925 BASE CALCOLO 13MA                   1.608             3.280,65                                             5.275.292,03   1608
+0926 BASE CALCOLO 14MA                   1.608             2.645,83                                             4.254.509,70   1608
+0930 BASE STRAORDINARI - HH LAVORAT      1.608                18,77                                                30.194,91   1608
+0931 BASE*495 STRAORD. - HH LAVORAT      1.608            18.777,75                                            30.194.624,25   1608
+0932 BASE STRAORDINARI - MAGGIORAZI      1.608                18,77                                                30.194,91   1608
+0933 BASE*495 STRAORD. - MAGGIORAZI      1.608            17.458,90                                            28.073.917,24   1608
+0934 BASE MAGGIORAZIONI [MP/MC]          1.608                18,77                                                30.194,91   1608
+0935 BASE*495 MAGGIORA. [MP/MC]          1.608            17.458,90                                            28.073.917,24   1608
+0936 BASE STRAORDINARI TURNO DIURNO      1.608            18.777,75                                            30.194.624,25   1608
+0937 BASE STRAORDINARI TURNO NOTTUR      1.608            18.777,75                                            30.194.624,25   1608
+0938 BASE STRAORDINARI-MAGG.TURNO D      1.608            18.777,75                                            30.194.624,25   1608
+0939 BASE STRAORDINARI-MAGG.TURNO N      1.608            18.777,75                                            30.194.624,25   1608
+0940 BASE*495 GIORNALIERA P.T. - TR      1.608           129.707,23                                           208.569.232,41   1608
+0941 BASE*495 GIORNALIERA P.T. - TR      1.608           129.707,23                                           208.569.232,41   1608
+0942 BASE*495 GIORNALIERA - FERIE        1.608           130.500,60                                           209.844.966,31   1608
+0943 BASE*495 GIORNALIERA - FERIE [      1.608           130.500,60                                           209.844.966,31   1608
+0944 BASE*495 GIORNALIERA P.T. - AS      1.608           129.707,23                                           208.569.232,41   1608
+0945 BASE*495 RATEI GIOR. P.T. - AS      1.608            19.509,39                                            31.371.108,93   1608
+0950 BASE*495 ORARIA - TRATTENUTE        1.608            18.777,75                                            30.194.624,25   1608
+0951 BASE*495 ORARIA - TRATTENUTE [      1.608            18.777,75                                            30.194.624,25   1608
+0952 BASE*495 ORARIA - FERIE             1.608            18.777,75                                            30.194.624,25   1608
+0953 BASE*495 ORARIA - FERIE [MP/MC      1.608            18.777,75                                            30.194.624,25   1608
+0954 BASE*495 ORARIA - ASS.PROT          1.608            18.777,75                                            30.194.624,25   1608
+0955 BASE*495 RATEI ORARIA - ASS.PR      1.608             2.827,33                                             4.546.351,34   1608
+0960 BASE*495 GIORNALIER TRASF.CHIM      1.522           108.956,73                                           165.832.144      1522
+0961 BASE*495 GIORN.-TRASF.CHIM. SI      1.522           108.956,73                                           165.832.144      1522
+0962 BASE*495 GIORN.-TRASF.CHIM. NO      1.522            99.660,51                                           151.683.297,16   1522
+0980 RETRIBUZIONE ANNUA LORDA            1.608            45.294,34                                            72.833.306,09   1608
+0981 RETRIBUZIONE ANNUA LORDA PT         1.608            45.018,93                                            72.390.452,78   1608
+0984 BASE PER IND. DI DISPONIBILITA      1.608             2.272,76                                             3.654.611,39   1608
+1000 RETRIBUZIONE/STIPENDIO             40.094               130,29                          5.224.144,70                      1607
+1010 ORE ORDINARIE                     226.954,64              0                                                               1579
+1011 FESTIVITA' GODUTA STATISTICA          168                 0                                                                 21
+1020 AUMENTO MESE RETR.TEORICA              15               119,19                                                 1.787,86     15
+1023 DI CUI AUMENTO MESE POLITICHE          15               119,19                                                 1.787,86     15PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     4
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+1025 AUMENTO ANNO RETR.TEORICA              15             1.626,94                                                24.404,22     15
+1028 DI CUI AUMENTO ANNO POLITICHE          15             1.626,94                                                24.404,22     15
+1036 TD: MAGGIORAZ. 20% PRIMI 10 GG         13                16,11                                209,48                         2
+1037 TD: MAGGIORAZ. 40% OLTRE 10 GG         22                31,67                                696,93                         2
+1100 UNA TANTUM (NO TFR)                    19               500                                 9.500                           19
+1110 INDENNITA' DI CASSA                     1               151,22                                151,22                         1
+1205 ARRETRATI (SI TFR)                     14               120,47                              1.686,65                        14
+1205 ARR. ARRETRATI (SI TFR)                 1                30,51                                 30,51                         1
+1635 PATTO NON CONCORRENZA                   9               939,81                              8.458,33                         9
+1921 ORE PERMESSO NON RETRIBUITO            14                13,06             182,85                                            2
+1951 ORE ASPETTATIVA                       156                 0                                                                  1
+1970 ORE VISITA MEDICA                     347                 0                                                                109
+1970 ARR. ORE VISITA MEDICA                  4-                0                                                                  1
+1971 ORE LUTTO/GRAVI INFERMITA'            359                 0                                                                 23
+1972 ORE PERMESSO RETRIB.                  243                 0                                                                  8
+1972 ARR. ORE PERMESSO RETRIB.               2,50              0                                                                  1
+1973 ORE PERMESSO SIND. RETRIB.            483                 0                                                                 24
+1976 ORE PERMESSO STUDIO                    26                 0                                                                  3
+1981 ORE MALATTIA                        6.893,47              0                                                                264
+1981 ARR. ORE MALATTIA                       8                 0                                                                  1
+1983 ORE MATERNITA' ANTIC.                 156                 0                                                                  1
+1985 ORE MATERNITA' OBBLIG.              1.813                 0                                                                 12
+1987 ORE MATERNITA' FACOL.               1.726                 0                                                                 15
+1989 ORE INFORTUNIO                        434                 0                                                                  5
+2200 LAVORO ORDINARIO                    5.069                12,75                             64.631,95                       432
+2200 ARR. LAVORO ORDINARIO                  39,50             11,19                                442,22                        10
+2235 MAGGIORAZIONE 35%                   4.721,83              4,13                             19.541,25                       505
+2235 ARR. MAGGIORAZIONE 35%                 16,50              3,57                                 59,01                         7
+2250 MAGGIORAZIONE 50%                   1.111,96              5,68                              6.323,41                       175
+2250 ARR. MAGGIORAZIONE 50%                 12                 5,33                                 64,03                         4
+2265 MAGGIORAZIONE 65%                      30,04              7,10                                213,43                        28
+2270 ARR. MAGGIORAZIONE 70%                  6                 7,13                                 42,80                         2
+2300 ORE RETT.MAL.POST RICOVERO (PE        870                 0                                                                  9
+2300 ARR. ORE RETT.MAL.POST RICOVER         39                 0                                                                  1
+2302 ORE PERM.CCAL NASCITA FIGLI             8                 0                                                                  1
+2304 ORE PERM.CARICHE PUBBLICHE             14                 0                                                                  1
+2305 ORE RICOVERO OSPEDALIERO (DI C        203                 0                                                                 12
+2305 ARR. ORE RICOVERO OSPEDALIERO           8                 0                                                                  1
+2310 PRESENZA SABATO > 4 ORE (ART.2        181                91,39                             16.542,88                       135
+2310 ARR. PRESENZA SABATO > 4 ORE (          1                87,60                                 87,60                         1
+2311 PRESENZA SABATO < 4 ORE (ART.2         30                45,81                              1.374,37                        23
+2311 ARR. PRESENZA SABATO < 4 ORE (          1                43,80                                 43,80                         1
+2320 IND.TRASFERTA DIR.ITALIA              107                85                                 9.095                           22
+2321 IND.TRASFERTA DIR.ESTERO              137                95,33                             13.060,21                        34
+2500 MAL:GG CARENZA 100%                   480               109,26                             52.448,32                       219
+2520 MAL:GG.IND.INPS 50%                    69                51,49                              3.553,01                        22
+2530 MAL:GG.IND.INPS 66,66%                 59                80,89                              4.772,86                         4
+2560 MAL:IND.INPS TOTALE                   128                65,04                                                 8.325,87     24PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     5
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+2570 MAL:RETRIB.DA GARANT.100%             336               102,53                                                34.452,52     79
+2590 MAL:RETRIB.DA GARANTIRE TOTALE        336               102,53                                                34.452,52     79
+2600 MAL:INTEGRAZIONE C/AZ.                336                75,83                             25.481,50                        79
+2640 MAL:INTEGRAZIONE C/AZ. EMENS          336                55,42                                                18.623,16     79
+2650 MAL:TRATTENUTA ASSENZA                818               106,41          87.045,85                                          232
+2720 INF:GG.IND.INAIL 60%                   47                90,67                              4.261,64                         2
+2730 INF:GG.IND.INAIL 75%                   28                67,56                              1.891,68                         1
+2760 INF:IND.INAIL TOTALE                   75                82,04                                                 6.153,32      3
+2770 INF:RETRIB.DA GARANT.100%              66               101,41                                                 6.693,37      3
+2790 INF:RETRIB.DA GARANTIRE TOTALE         66               101,41                                                 6.693,37      3
+2800 INF:INTEGRAZIONE C/AZ.                 66                 2,68                                177,04                         3
+2840 INF:INTEGRAZIONE C/AZ. EMENS (         68                 2,60                                                   177,04      5
+2850 INF:TRATTENUTA ASSENZA                 66               101,41           6.693,37                                            3
+2855 INF:CONG.TRATTENUTA ASSENZA             1               245                245                                               1
+2860 INF:IND.INAIL CONGUAGLIO +              1               221,75                                221,75                         1
+2920 MAT:GG.IND.INPS 80%                   344                83,01                             28.558,67                        13
+2924 MA8:GG.IND.INPS 100%                    2               122,28                                244,57                         2
+2924 ARR. MA8:GG.IND.INPS 100%               1               114,26                                114,26                         1
+2960 MAT:IND.INPS TOTALE                   352                81,13                                                28.558,67     13
+2970 MAT:RETRIB.DA GARANT.100%             254               110,25                                                28.005,05     11
+2990 MAT:RETRIB.DA GARANTIRE TOTALE        254               110,25                                                28.005,05     11
+3000 MAT:INTEGRAZIONE C/AZ.                181                 9,91                              1.794,75                        10
+3050 MAT:TRATTENUTA ASSENZA                314               108,52          34.077,59                                           13
+3051 MA8:TRATTENUTA ASSENZA                  2               122,28             244,57                                            2
+3067 MAT:IND.INPS PROGRESSIVA               13             8.187,94                                               106.443,29     13
+3070 MAT:C/STATO (M053)                      2             1.361,81                                                 2.723,63      2
+3075 MAT:C/INPS (**53)                      12             2.152,92                                                25.835,04     12
+3076 MAT:C/STATO (M053) (E776)               2                22,65                                                    45,30      2
+3094 MAT:RATEI RECUPERABILI (E/27)          72                 0                                                                  3
+3100 MAF:GG.IND.INPS 30%                   293                24,41                              7.153,03                        13
+3150 MAF:TRATTENUTA ASSENZA                266                96,62          25.701,02                                           13
+3176 MA3 (MAL.BIMBO<3AA):HH TRATT.A         85,50             11,70           1.000,97                                            6
+3301 MA5 (PER.MEN.FIG.H.):HH IND.IN         53                16,72                                886,22                         4
+3311 MA5 (PER.MEN.FIG.H.):TRATT. AS         53                16,72             886,22                                            4
+3321 MA6: HH IND.INPS 100%                  51                17,49                                892,36                         3
+3331 MA6: TRATT. ASSENZA (ORE)              51                17,49             892,36                                            3
+3340 MA7: GG IND.INPS 100%                 414,50             15,15                              6.280,36                        26
+3350 MA7: TRATT. ASSENZA                   414,50             15,15           6.280,36                                           26
+3360 ALL:HH.IND.INPS 100%                  486                14,45                              7.023,33                        18
+3370 ALL:TRATTENUTA ASSENZA                486                14,45           7.023,33                                           18
+3390 MAF (OLTRE 6MM):TRATTENUTA ASS          6               136,90             821,45                                            2
+3431 MB4: HH TRATT.ASSENZA                  48                16,96             814,38                                            5
+3440 MB5: HH IND.INPS 100%                  28,50             12,97                                369,84                         1
+3450 MB5: TRATT. ASSENZA                    28,50             12,97             369,84                                            1
+3483 DON:ORE IND.INPS 100%                 100                15,77                              1.577,11                        13
+3493 DON:TRATTENUTA ASSENZA(ORE)           100                15,77           1.577,11                                           13
+3572 DMO:ORE IND.INPS 100%                   7                19,62                                137,36                         1
+3577 DMO:TRATTENUTA ASSENZA(ORE)             7                19,62             137,36                                            1PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     6
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+3619 SOD: BASE RETRIBUTIVA               1.608             3.280,65                                             5.275.292,03   1608
+3650 SOL: BASE ORARIA INTEGRAZIONE       1.608            11.743,37                                            18.883.353,64   1608
+3651 SOL: BASE ORARIA MAGGIORAZIONE      1.608             1.957,23                                             3.147.226,03   1608
+3700 CIG/S: LIMITE MENSILE               1.608             2.098,04                                             3.373.648,32   1608
+3702 CIG/S: R.A.L. MENSILE               1.608             3.774,52                                             6.069.442,69   1608
+3703 CIG/S: CONG.IMPORTO MENSILE MA      1.608             1.087,30                                             1.748.387,15   1608
+3704 CIG/S: IMPORTO MENSILE MAX          1.608             1.088,45                                             1.750.230,85   1608
+3705 CIG/S: BASE ORARIA CONG. DELTA      1.598                66,68                                               106.557,34   1598
+3706 CIG/S: BASE ORARIA                  1.608             6.916,55                                            11.121.814,22   1608
+3713 CIG DEROGA RATEO ORARIO 13MA        1.608             1.640,32                                             2.637.650,08   1608
+3714 CIG DEROGA RATEO ORARIO 14MA        1.608             1.322,92                                             2.127.258,62   1608
+3950 IND.TRASFERTA S.P. 20%              1.036                25,83                             26.763,72                       246
+3950 ARR. IND.TRASFERTA S.P. 20%            26                28,31                                736,19                        33
+3952 IND.TRASFERTA S.P. 50%                253                73,84                             18.682,16                       148
+3952 ARR. IND.TRASFERTA S.P. 50%             0                27,77-                                27,77-                        2
+3953 IND.TRASFERTA C.P. 20%                435                31,20                             13.573,57                       148
+3953 ARR. IND.TRASFERTA C.P. 20%             0               160,11                                160,11                        15
+3955 IND.TRASFERTA C.P. 50%                374                73,46                             27.476,66                       138
+3955 ARR. IND.TRASFERTA C.P. 50%             1-               89,19                                 89,19-                        1
+3997 PR.PRESENZA PAGAMENTO CESSATI         177,33              4,56                                809,20                        12
+4100 INDENNITA' NOTTE TURNO                341                27,14                              9.254,74                        54
+4100 ARR. INDENNITA' NOTTE TURNO             2                27,14                                 54,28                         1
+4101 IND. SOST MENSA TURNO NOTTE           341                 4,50                              1.534,50                        54
+4101 ARR. IND. SOST MENSA TURNO NOT          2                 4,50                                  9                            1
+4102 GETTONE PRESENZA SABATO ORDINA        152                56                                 8.512                           66
+4102 ARR. GETTONE PRESENZA SABATO O          3-               56                                   168-                           3
+4103 GETTONE PRESENZA SABATO STRAOR        115                43                                 4.945                           58
+4103 ARR. GETTONE PRESENZA SABATO S          3                43                                   129                            3
+4106 GETTONE STR. TURNO VIA PALERMO         48                67,64                              3.246,72                        20
+4113 TRATTENUTA MENSA                    5.105                 1,04           5.309,20                                          456
+4115 IND.DISAGIO CAMERA STERILE          1.654                 2,30                              3.804,20                        42
+4116 IND.DISAGIO POLVERI                 5.769,50              1,05                              6.058,10                        60
+4120 IND.TURNO FISSA                       200               204,22                             40.844,36                       200
+4121 MAGG.11% TURNISTI                     818,41              1,11                                909,93                        19
+4122 MAGG.50% TURNO NOTTURNO             2.585,58              5,31                             13.733,39                        54
+4130 IND.TURNO FISSA SU 13.MA                6                18,68                                112,12                         3
+4150 IND.MANSIONE ISF                   10.659                 3,65                             38.937,33                       357
+4151 IND.MANSIONE CA                     2.730                 4,33                             11.831,82                        91
+4152 IND.INTEGRATIVA PASTO ISF              42               166,67                              7.000,14                        42
+4153 IND.ATTIVITÀ OSPEDALIERA               25                83,34                              2.083,50                        25
+4155 IND.TEMPORANEA PREV/ASS                30                10,96                                328,85                        30
+4161 IND.REPERIBILITÀ FERIALE              385                14,50                              5.582,50                        61
+4161 ARR. IND.REPERIBILITÀ FERIALE           1-               14,50                                 14,50-                        1
+4162 IND.REPERIBILITÀ FESTIVA              161                18,75                              3.018,75                        61
+4162 ARR. IND.REPERIBILITÀ FESTIVA           1                18,75                                 18,75                         1
+4163 IND.REPERIBILITÀ SETTIMANALE           76                67                                 5.092                           59
+4164 IND.REPER.PRIMA CHIAMATA                6                36                                   216                            6
+4165 ARR. IND.REPER.SECONDA CHIAMAT          1                67                                    67                            1PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     7
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+4171 ORE VIAGGIO 50% TRASF.<12 ORE           8,50              5,86                                 49,89                         6
+4300 CONCORSO SPESA ASILO NIDO              37                64,86                              2.400                           37
+4301 CONCORSO SPESA SCUOLA MATERNA          79                63,74                              5.036,12                        79
+4302 CONCORSO SPESE                         27               148,35                              4.005,51                        27
+4310 RIMBORSO SPESE COMUNE ESTERNI         132                25,37                              3.349,90                       132
+4311 INTEGR.X SPESE TRASF.COMUNE             7                93,42                                653,96                         7
+4330 IND. MENSILE MISSIONE                   6               695,37                              4.172,22                         6
+4335 HYPOTHETICAL TAXATION                   4             1.942,75           7.771                                               4
+4400 FESTIVITÀ PAGATA                        1               237,63                                237,63                         1
+4450 RECUPERO RETRIBUZIONE                   2               210,37             420,75                                            2
+4500 VALORE CONVENZIONALE AUTO             605               115,14                                                69.665,56    605
+4500 ARR. VALORE CONVENZIONALE AUTO          2                40,61                                                    81,22      2
+4501 VALORE CONVENZIONALE ALLOGGIO           8                42,83                                                   342,67      8
+4503 VALORE RETR. IN NATURA                  3             1.418                                                    4.254         3
+4504 SPESE DI TRASF.NON DOCUMENTATE         36                15,77                                                   567,98     36
+4505 SPESE TRASFERTA COMUNE                  4                38,74                                                   154,96      4
+4551 CONTR. C/DIR POLIZZE VITA              86                12,50           1.075                                              86
+4552 TRATT.ASS.INF.EXTRA PROF.LE             5                 8,29              41,47                                            5
+4811 ASS: MAT.OBBL.                      1.969                 0                                                                 13
+4812 ASS: MAT.FAC.                       1.726                 0                                                                 15
+4813 ASS: ASPETT.NON RETR.                 156                 0                                                                  1
+4814 ASS: MALATTIA                       6.901,47              0                                                                264
+4815 ASS: INFORTUNIO                       434                 0                                                                  5
+4816 ASS: PERM.NON RETR.                   147,50              0                                                                 12
+4817 ASS: PERM.RETRIBUITI                1.478,50              0                                                                165
+4818 ASS: PERM.C/INPS                    1.156                 0                                                                 68
+4992 FERIE SUPPL A GIORNI                   32,50              0                                                                 38
+4992 ARR. FERIE SUPPL A GIORNI               2,50              0                                                                  3
+4993 FERIE SUPPLEMENTARI MATURATE M        280                 0                                                                 41
+4994 STRAORD.ACCANT. IN CONTO ORE -        802,33              0                                                                164
+4996 BASE PAGAMENTO FERIE CUSTOM         1.608                15,16                                                24.382,18   1608
+4998 PERDITA RATEI 13 14 FER                 2                 0                                                                  2
+5000 FERIE GODUTE                        5.131                 0                                                                411
+5000 ARR. FERIE GODUTE                     268                 0                                                                 17
+5002 FERIE GODUTE A.C.                   5.399                 0                                                                422
+5005 FERIE GODUTE PROGRESSIVO           29.819,50              0                                                               1374
+5007 FERIE GODUTE A.C. PROGRESSIVO      29.739,50              0                                                               1374
+5009 FERIE COEF.MATURAZIONE            160.600                 0                                                               1606
+5010 FERIE MATURATO MESE                32.016,54              0                                                               1596
+5011 FERIE MATURATO PROGRESSIVO         64.221,80              0                                                               1601
+5015 FERIE SPETTANZA ANNUA             380.927,76              0                                                               1607
+5020 FERIE PAGATE                        1.922,14              0                                                                 16
+5030 FERIE RESIDUE A.P.                209.462,67              0                                                               1570
+5040 FERIE RESIDUE (SALDO EFFETTIVO    241.687,33              0                                                               1584
+5042 FERIE PAGATE CESSAZIONE             1.922,14             14,87                             28.594,46                        16
+5050 P.A.R. GODUTI                       1.893,87              0                                                                477
+5050 ARR. P.A.R. GODUTI                      4,50-             0                                                                  2
+5052 P.A.R. GODUTI A.C.                  1.889,37              0                                                                477PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     8
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+5055 P.A.R. GODUTI PROGRESSIVO           8.062,28              0                                                                759
+5057 P.A.R. GODUTI A.C. PROGRESSIVO      3.954,52              0                                                                624
+5059 P.A.R. COEF.MATURAZIONE           160.600                 0                                                               1606
+5060 P.A.R. MATURATO MESE                3.202,85              0                                                               1043
+5061 P.A.R. MATURATO PROGRESSIVO         6.623,06              0                                                               1046
+5065 P.A.R. SPETTANZA ANNUA             30.620,81              0                                                               1052
+5070 P.A.R. PAGATI                         347,48              0                                                                 11
+5070 ARR. P.A.R. PAGATI                     63,50-             0                                                                  4
+5072 P.A.R. PAGATI A.C.                     63,50-            32,36                              2.055,18-                        4
+5080 P.A.R. RESIDUO A.P.                25.073,72              0                                                               1019
+5082 P.A.R. PAGATI CESSAZIONE              347,48             11,70                              4.068,17                        11
+5090 P.A.R. RESIDUO (SALDO EFFETTIV     23.219,38              0                                                               1046
+5109 P.I.R. (EX FEST.SOPPR.) COEF.M    160.600                 0                                                               1606
+5202 FERIE PAG.STORNO 5021-22-42            16             1.787,15          28.594,46                                           16
+5203 FERIE PAGATE GIORNI                   240,28            119                                28.594,46                        16
+5255 ANF : TIPOLOGIA NUCLEO              2.011                 0                                                                178
+5260 ANF : COMPONENTI + REDDITO            613            50.144                                               30.738.276,72    178
+5265 ANF : N. FIGLI                        291                 0                                                                177
+5266 ANF : N. FIGLI INABILI                  1                 0                                                                  1
+5270 ANF : GIORNI ASSEGNO               41.606                 0                                                               1607
+5275 ANF : ASSEGNO NUCLEO                  178                59,64                             10.617,10                       178
+5280 ANF : ARRETRATO ASSEGNO                 1                56,82                                 56,82                         1
+5280 ARR. ANF : ARRETRATO ASSEGNO            2               160,20                                320,41                         2
+5300 13MA FLAG MATURAZIONE               1.596                 0                                                               1596
+5310 13MA RATEO FT/PT (VALORIZZATO)    158.290,57              2,74                                               434.448,87   1596
+5320 13MA PROGRESSIVO RATEI FT/PT      316.238,84              0                                                               1601
+5330 13MA ACCANTONAMENTO                 1.596               272,30                                               434.597,76   1596
+5340 13MA MENSILITA'                        16               414                                 6.624,07                        16
+5350 14MA FLAG MATURAZIONE               1.596                 0                                                               1596
+5360 14MA RATEO FT/PT (VALORIZZATO)    158.290,57              2,21                                               350.039,10   1596
+5370 14MA PROGRESSIVO RATEI FT/PT      316.238,84              0                                                               1601
+5380 14MA ACCANTONAMENTO                 1.596               219,38                                               350.135,25   1596
+5390 14MA MENSILITA'                        16               324,12                              5.186,04                        16
+5400 PRPA FLAG MATURAZIONE               1.599                 0                                                               1599
+5410 PRPA RATEO FT/PT (VALORIZZATO)    158.590,57              1,53                                               243.734,86   1599
+5415 PRPA ORE ASSENZA MESE               9.854,97              0                                                                370
+5417 PRPA PROGR.ORE ASSENZA             18.956,60              0                                                                544
+5418 PRPA PROGR.ORE STR                 10.089                 0                                                                483
+5420 PRPA PROGRESSIVO RATEI FT/PT      316.838,84              0                                                               1603
+5430 PRPA ACCANTONAMENTO                 1.513               161,09                                               243.734,54   1513
+5440 PRPA PREMIO PARTECIPAZIONE AC          11               296,67                              3.263,37                        11
+5445 PRPA PREMIO PARTECIPAZIONE AP          14             1.662,28                             23.272                           14
+5457 MBO: LIQUIDATO AP                       2             7.041,50                             14.083                            2
+5458 MBO: FONDO                            329             1.846,79                                               607.594,08    329
+5464 PRRE: IMPORTO PREMIO RETE             458             4.993,21                                             2.286.890,54    458
+5467 PRRE: LIQUIDATO PREMIO RETE AP        232               318,16                             73.815                          232
+5468 PRRE: FONDO PREMIO RETE               453               831,69                                               376.759,94    453
+5478 COPL: FONDO PREMIO PLURIENNALE          5            17.122,76                                                85.613,83      5PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA     9
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+5488 PR.PRESENZA FONDO                   1.206                75,06                                                90.528,76   1206
+5590 13MA 14MA ASSOG. A IRPEF M.O           16               324,12                                                 5.186,04     16
+5621 PREAVVISO: IND.SOSTIT.(SI TFR)          6             9.032,08                             54.192,50                         6
+5626 PREAVVISO: I.SOST.DECED.SI TFR          1            14.282                                14.282                            1
+5640 INCENTIVO ALL'ESODO                     9           100.779,72                            907.017,50                         9
+5651 ASSOGG. FRINGE BENEFIT                611               114,96                                                70.244,41    611
+5660 ASSOGG. TRASF/DIARIE/SPESE            425               205,35                                                87.275,45    425
+5700 GIORNI INPS (E/78)                 41.606                 0                                                               1607
+5705 SETTIMANE INPS (E/17)               6.412                 0                                                               1607
+5706 SETTIMANE UTILI (EMENS)               178,97              0                                                                 53
+5710 RETRIBUZIONE GIORNALIERA INPS       1.608               113,29                                               182.180,96   1608
+5711 RETRIBUZIONE GIORNALIERA INPS       1.608               111,75                                               179.703,26   1608
+5712 RETRIBUZIONE GIORNALIERA INPS       1.608                89,75                                               144.319,83   1608
+5720 RETRIBUZIONE GIORNALIERA INPS       1.608                16,64                                                26.763      1608
+5721 RETRIBUZIONE GIORNALIERA INPS       1.608               129,94                                               208.943,96   1608
+5730 RETRIBUZIONE GIORNALIERA INAIL      1.608               134,10                                               215.643,56   1608
+5735 RETRIBUZIONE GIORNALIERA INAIL      1.608                19,63                                                31.565,63   1608
+5740 TRATTENUTA PENSIONATI: IMPORTO          1                14,48                                                    14,48      1
+5745 TRATTENUTA PENSIONATI FPLD             26                14,48             376,48                                            1
+5830 EMENS: RETRIBUZIONE TEORICA         1.608             3.260,82                                             5.243.398,70   1608
+5900 MASSIMALE ANNUO IVS                   481           100.123                                               48.159.163       481
+5901 MASSIMALE ANNUO IVS 1% AGG.         1.608            46.031                                               74.017.848      1608
+5902 MASSIMALE MENS.IVS 1% AGG.          1.608             3.836                                                6.168.288      1608
+5906 MINIMALE GIORNALIERO INAIL          1.522                53,28                                                81.092,16   1522
+5907 MINIMALE ORARIO INAIL (P.T.)        1.608                12,23                                                19.681,17   1608
+5909 MASSIMALE ANNUO INAIL               1.608            29.682,90                                            47.730.103,20   1608
+5910 MASSIMALE MENSILE INAIL                86             2.473,58                                               212.727,88     86
+5911 MASSIMALE GIORNALIERO INAIL            86                98,94                                                 8.508,84     86
+5912 MASSIMALE ORARIO INAIL                 86                12,37                                                 1.063,82     86
+5913 ORE INAIL (HH COMUNQUE LAVORAT    277.559,66              0                                                               1607
+5949 TETTO DEDUCIBILITA' PREV.COMPL        133             2.582,29                                               343.444,57    133
+5950 TETTO DEDUCIBILITA' PREVIDENZA      1.608             5.164,57                                             8.304.628,56   1608
+5951 TETTO DEDUCIBILITA' ASSISTENZA      1.608             3.615,20                                             5.813.241,60   1608
+5952 TETTO DEDUCIBILITA' PREV.COMPL          6             2.582,29                                                15.493,74      6
+5954 TETTO LIMITE ASSOGGETAMENTO FR      1.608               258,23                                               415.233,84   1608
+5955 TETTO DETRAIBILITA' ASSICURAZI      1.608               530                                                  852.240      1608
+5956 TETTO DETRAIBILITA' ONLUS           1.608             2.065                                                3.320.520      1608
+5963 FRINGE BENEFIT CON LIMITE               3             1.418                                                    4.254         3
+5970 ASSOGGETTAMENTO FRINGE BENEFIT          3             1.418                                                    4.254         3
+5999 IMPON.CONTRIBUTIVO A COPERTURA          2                 0,21-                                                    0,43-     2
+6000 IMPON.CONTRIBUTIVO                  1.595             3.670,85                                             5.855.009      1595
+6001 IMPON.CONTRIBUTIVO NON ARR.         1.595             3.670,85                                             5.855.010,01   1595
+6002 IMPON.CONTRIBUTIVO NON ARR. NE          1                 0,25-                                                    0,25-     1
+6010 IMPON.CONTRIBUTIVO ESTERO               2             8.730                                                   17.460         2
+6020 IMPON.CONTRIBUTIVO ESTERO CONV          2             8.996,34                                                17.992,69      2
+6021 IMPON.CONTRIBUTIVO ESTERO CONV          2             8.996                                                   17.992         2
+6024 DELTA EFFETTIVO / CONVENZIONAL          2               266,64-                                                  533,28-     2
+6025 DELTA EFFETTIVO / CONVENZIONAL          1             2.116-                                                   2.116-        1PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    10
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+6030 IMPON.CONTRIBUTIVO IVS              1.595             3.672,17                                             5.857.124      1595
+6035 IMPON.CONTRIBUTIVO IVS 1% AGG.        490             1.966,29                                               963.486       490
+6040 IMPON.CONTRIBUTIVO IVS 1% AGG.         14             9.746,07-                                              136.445-       14
+6042 IMPON.CONTRIBUTIVO IVS 1% AGG.         14             9.746,07                                               136.445        14
+6050 IMPON.CONTRIBUTIVO OLTRE MAX            1                 1                                                        1         1
+6060 IMPONIBILE CONTRIBUTIVO PROGRE      1.600             7.423,16                                            11.877.064      1600
+6061 IMPONIBILE CONTRIBUTIVO PROGRE      1.600             7.423,15                                            11.877.055,06   1600
+6062 IMPONIBILE CONTRIBUTIVO IVS PR      1.600             7.425,80                                            11.881.294      1600
+6200 IMPON.PREVID.COMPLEMENTARE C/D      1.110             3.224,57                                             3.579.274,53   1110
+6205 IMPON.PREVID.COMPLEMENTARE C/A      1.110             3.224,57                                             3.579.274,53   1110
+6250 IMPON.TEORICO FPC DIR.IND.             85             8.986,89                                               763.885,93     85
+6251 IMPON.FPC DIR.IND.MESE DI MATU         85                 0                                                                 85
+6252 IMPON.FPC DIR.IND.MESE DI MATU         39                 0                                                                 39
+6255 IMPON.FPC DIR.IND.EFFETTIVO            85             8.168,85                                               694.352,50     85
+6300 IMPON.CONTRIBUTIVO INAIL            1.584             3.299,38                                             5.226.232,71   1584
+6500 CTR. C/DIP. IVS BASE               14.740,32             36,45         537.340,56                                         1608
+6502 CTR. C/DIP. IVS 1% AGG.               490                19,66           9.634,86                                          490
+6504 CTR. C/DIP.SOLID.F.DI SPECIALI          4,50            176,64             794,91                                            9
+6505 CTR. C/DIP. CIG STRAORD.              453,90             33,29          15.113,37                                         1513
+6511 CTR. C/DIP. IVS 1% AGG. (CONG-         14                97,46                              1.364,45                        14
+6580 CTR. C/DIP. PREV.COMPLEMENTARE      1.299,60             32,37          42.080,80                                         1083
+6583 CTR. C/DIP. PREV.COMPL.INTEGR.        206,20             33,50           6.907,94                                          132
+6585 CTR. C/DIP. PREV.COMPL.UT.ISC.          5                 4                 20                                               5
+6590 CTR. C/DIP. FPC DIR.IND.               85               326,75          27.774,12                                           85
+6591 CTR. C/DIP.FPC INTEGR.DIR.IND.          3,50            188,36             659,28                                            2
+6595 CTR. C/DIP. CASSA ASS.SANITARI      1.204                 7,49           9.028,18                                         1204
+6597 CTR. C/DIP.ASS.SAN.NUCLEO FAM.        225                28,36           6.381,25                                          225
+6830 CTR. C/DIP. TOTALE ANTE RIDUZI      1.595               352,04                                               561.519,25   1595
+6835 CTR. C/DIP. Q.TA RIDUZIONE IMP         16                39,28                                                   628,60     16
+6845 CTR. C/DIP. Q.TA RIDUZIONE IMP          7               928,31                                                 6.498,23      7
+6846 CTR. C/DIP. SU PREAVVISO                7               928,31                                                 6.498,23      7
+6900 CTR. C/AZ. IVS                     37.857,55             36,51                                             1.382.325,07   1590
+6901 CTR. C/AZ. ASPI (EX DS)             2.576,67             36,38                                                93.760,85   1601
+6902 CTR. C/AZ. FG TFR                     335,20             39,40                                                13.209,83   1590
+6903 CTR. C/AZ. CUAF                     1.080,52             36,44                                                39.381,42   1589
+6904 CTR. C/AZ. CIG ORD.                 3.308,80             33,29                                               110.149,97   1504
+6905 CTR. C/AZ. CIG STRAORD.               902,40             33,28                                                30.040,86   1504
+6906 CTR. C/AZ. MOBILITA'                  477                36,51                                                17.418,27   1590
+6907 CTR. C/AZ. MALATTIA                   488,40             23,54                                                11.498,84    220
+6908 CTR. C/AZ. MATERNITA'                 730,94             36,44                                                26.640,48   1589
+6910 CTR. C/AZ. APPRENDISTI/MOBILIT        180                28,47                                                 5.126,20     18
+6911 CTR. C/AZ. ASPI ADDIZIONALE            82,60             24,43                                                 2.018,48     59
+6950 CTR. C/AZ. INAIL                   13.520,87              3,27                                                44.260,25   1597
+6980 CTR. C/AZ. PREV.COMPLEMENTARE       2.003,55             32,37                                                64.874,37   1083
+6982 CTR. C/AZ. PREV.COMPLEMENTARE         216,60             32,37                                                 7.013,43   1083
+6985 CTR. C/AZ. PREV.COMPLEMENTARE           5                12                                                       60         5
+6987 CTR. C/AZ.FPC DIR.IND.MESE X M         85               326,75                                                27.774,12     85
+6990 CTR. C/AZ.FPC DIR.IND.                 85               326,75                                                27.774,12     85PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    11
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+6991 IMPON.LE SOLID. DIR.IND. PREVI         85               326,75                                                27.774,12     85
+6995 CTR. C/AZ. CASSA ASS. SANITARI         77                98                                                    7.546        77
+6997 CTR. C/AZ. CASSA ASS. SANITARI      1.204                28,93                                                34.832      1204
+7098 IMP.CTR. C/AZ. SOL.TRIM.MENS.(      1.204                35,19                                                42.378      1204
+7099 IMP.CTR.C/AZ. SOL.CALC.TRIM./M      1.168                85,37                                                99.721,92   1168
+7103 IMP. SOLIDARIETA' (M900/M940)       1.168                85,37                                                99.721,92   1168
+7104 IMP. SOLIDARIETA' (M980/M990)       1.204                35,19                                                42.378      1204
+7105 CTR. C/AZ. SOLIDARIETA' (M900/     11.680                 0,85                                                 9.972,87   1168
+7106 CTR. C/AZ. SOLIDARIETA' (M980/     12.040                 0,35                                                 4.237,80   1204
+7180 IMP.ONERI DEDUCIBILI - ASS.SAN      1.204                41,72                                                50.241,43   1204
+7181 IMP.ONERI DEDUCIBILI - FONDI E      1.168               151,68                                               177.164,06   1168
+7186 IMP.ONERI DETRAIBILI - POLIZZA         91                12,26                                                 1.116,47     91
+7230 CTR. C/AZ. TOTALE ANTE RIDUZIO      1.595             1.085,62                                             1.731.570,27   1595
+7238 DM10: CTR.C/AZ.DIP.IN MOBILITA          3             2.104                                                    6.312         3
+7242 ASPI CTR.AZ.ADDIZIONALE DA REC          2               183,33                                                   366,66      2
+7243 ASPI RECUPERO CTR.AZ. ADDIZ.            1               494,94                                                   494,94      1
+7261 TOTALE CTR VERSATI 1^ OCC. ASS         25               953,86                                                23.846,62     25
+7262 PLAFOND DEDUCIBILITÀ                    7            25.477,90                                               178.345,30      7
+7277 CTR. ALIQUOTA GLOBALE EFF.         63.214,30              0                                                               1608
+7278 CTR. ALIQUOTA C/DIPENDENTE EFF     15.194,22              0                                                               1608
+7279 CTR. ALIQUOTA C/AZIENDA EFF.       48.020,08              0                                                               1608
+7280 DM10: NETTIZZAZIONE                 1.608                 0                                                               1608
+7283 DM10: CTR MINORI OLTRE MASSIMA          1,37              0                                                        0,01      1
+7285 DM10: IMPON.SOLIDARIETA' (M900      1.168                85,37                                                99.721,92   1168
+7286 DM10: IMPON.SOLIDARIETA' (M980      1.204                35,19                                                42.378      1204
+7289 DM10: ORE LAVORATE MESE           272.222,29              0                                                               1588
+7290 DM10: RIDUZIONE L.398/87 (S189         10               144,78                                                 1.447,80      1
+7300 T.F.R. BASE PARTE FISSA             1.608             3.261,38                                             5.244.305,11   1608
+7305 T.F.R. BASE PARTE VARIABILE           875               239,87                                               209.888,20    875
+7310 T.F.R. BASE IMPONIBILE              1.603             3.386,48                                             5.428.528,82   1603
+7320 T.F.R. TEORICO MESE (LORDO)         1.603               250,85                                               402.113,31   1603
+7323 T.F.R. CTR 0,50%                      788,50             36,82                                                29.033,10   1577
+7324 TFR CTR 0,50% C/DIP.                    1                18,02              18,02                                            1
+7325 T.F.R. CTR 0,50% NEGATIVO               5                 4,64                                                    23,21      5
+7326 T.F.R. RECUPERO CTR 0,50%           1.607                 0                                                        7,32   1607
+7327 T.F.R. TEORICO MESE (NETTO)         1.601               233,05                                               373.114,12   1601
+7330 T.F.R. IMP.LE PREVIDENZA COMPL      1.194               425,50                                               508.056,59   1194
+7332 T.F.R. IMP.LE PREVIDENZA COMPL      1.194               425,50                                               508.056,59   1194
+7340 T.F.R. Q.TA PREVIDENZA COMPLEM    100.988                 2,54                                               256.834,10   1197
+7350 T.F.R. RESIDUO INOPTATO               695               167,30                                               116.280,02    695
+7370 T.F.R. CTR. F.DO TESORERIA INP        695               167,30                                               116.280,02    695
+7394 T.F.R. ESONERO CTR SOCIALI (TF      1.186                 9,50                                                11.274,34   1186
+7395 T.F.R. SGRAVIO CRT FG (TF01)        1.178                 7,97                                                 9.392,30   1178
+7396 T.F.R. SGRAVIO CRT FG (TF02 SU        679                 5,57                                                 3.784,08    679
+7398 T.F.R. ESONERO CTR SOCIALI (TF        689                 7,36                                                 5.077,80    689
+7410 T.F.R. MATURATO MESE (FT)             695               167,30                                               116.280,02    695
+7415 T.F.R. MATURATO ANNO (FT)             699               328,51                                               229.631,08    699
+7520 T.F.R. A PREV.COMPLEMENTARE AL        363             1.707,27                                               619.740,29    363PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    12
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+7525 T.F.R. A PREV.COMPLEMENTARE AL        727             5.385,41                                             3.915.195,96    727
+7530 T.F.R. A PREV.COMPLEMENTARE DA      1.196            15.905,01                                            19.022.394,73   1196
+7535 T.F.R. A PREV.COMPLEMENTARE AN      1.195               426,38                                               509.532,84   1195
+7540 T.F.R. A PREV.COMPLEMENTARE TO      1.196            19.696,76                                            23.557.330,98   1196
+7550 T.F.R. FONDO AL 31.12.2000            501            11.241,59                                             5.632.039,94    501
+7555 T.F.R. FONDO AL 31.12.2006            965             6.922,05                                             6.679.785,22    965
+7560 T.F.R. FONDO DAL 1.1.2007 (ESE        333               619,01                                               206.131,55    333
+7570 T.F.R. FONDO TESORERIA C/INPS         773             9.464,31                                             7.315.915,44    773
+7580 T.F.R. FONDO RIVALUTAZIONE C/A        965             4.045,44                                             3.903.856,80    965
+7590 T.F.R. FONDO RIVALUTAZIONE C/I        704               697,61                                               491.122,79    704
+7600 T.F.R. GIA' EROGATO F.DO 31.12        209            12.415,93                                             2.594.930,83    209
+7602 T.F.R. GIA' EROGATO F.DO 31.12        131             4.889,96                                               640.584,79    131
+7610 T.F.R. GIA' EROGATO F.DO TESOR         24             4.737,26                                               113.694,45     24
+7615 T.F.R. GIA' EROGATO F.DO RIVAL        191             6.093,10                                             1.163.782,21    191
+7630 T.F.R. ANNO ULTIMA EROGAZIONE         297             2.013,97                                               598.151       297
+7638 T.F.R. RIVALUTAZIONE C/AZ (AL       1.041                41,82                                                43.542,84   1041
+7639 T.F.R. RIVALUTAZIONE C/INPS (A        773                26,76                                                20.693,13    773
+7640 T.F.R. RIVALUTAZIONE C/AZ. (AL      1.041                61,52                                                64.046,37   1041
+7641 T.F.R. RIVALUTAZIONE C/INPS (A        773                39,39                                                30.449,38    773
+7642 T.F.R. RIVALUTAZIONE C/AZ. DEL      1.041                61,52                                                64.046,37   1041
+7643 T.F.R. RIVALUTAZIONE C/INPS DE        773                39,39                                                30.449,38    773
+7645 T.F.R. IMPOSTA SOST.11% RIVAL.      1.031                 6,83                                                 7.045,14   1031
+7646 T.F.R. IMPOSTA SOST.11% RIVAL.        773                 4,33                                                 3.349,54    773
+7700 T.F.R. ANT. IMPORTO EROGANDO            4             8.925                                                   35.700         4
+7705 T.F.R. ANT. PERCENTUALE EROGAN        173,06              0                                                                  4
+7710 T.F.R. ANT. QUOTA F.DO 31.12.2          3             6.275,28                                                18.825,84      3
+7711 T.F.R. LIQ. QUOTA F.DO 31.12.2          8            14.058,12                                               112.465,03      8
+7715 T.F.R. ANT. QUOTA F.DO 31.12.2          2             7.437,08                                                14.874,16      2
+7716 T.F.R. LIQ. QUOTA F.DO 31.12.2         11             9.328,66                                               102.615,36     11
+7721 T.F.R. LIQ. QUOTA F.DO 1.1.200          1               998,83                                                   998,83      1
+7726 T.F.R. LIQ. QUOTA F.DO RIVAL.N         11             8.002,86                                                88.031,47     11
+7727 T.F.R. LIQ. QUOTA F.DO RIVAL.N         11               105,67                                                 1.162,39     11
+7735 T.F.R. ANT. QUOTA F.DO TESORER          1             2.000                                                    2.000         1
+7736 T.F.R. LIQ. QUOTA F.DO TESORER         13             9.172,44                                               119.241,77     13
+7741 T.F.R. LIQ. QUOTA F.DO RIVAL.N         11               785,20                                                 8.637,21     11
+7742 T.F.R. LIQ. QUOTA F.DO RIVAL.N         13                38,17                                                   496,27     13
+7751 T.F.R. LIQ. QUOTA MATURATO ANN         12               449,63                                                 5.395,62     12
+7760 T.F.R. RIVALUTAZIONE SU ANT. E          1                15,90                                                    15,90      1
+7800 TFR ANTICIPAZIONE LEGGE 297/82          3            11.233,33                             33.700                            3
+7810 TFR ANTICIPAZ. CTR F.DO TESOR.          1             2.000                                 2.000                            1
+7846 DL 201/2011 IMPON.FISCALE TFR          13            15.050,99                                               195.662,98     13
+7847 DL 201/2011 IMPON.FISCALE TFR          17            70.740,59                                             1.202.590,03     17
+7848 DL 201/2011 IMPON.FISCALE TFR          10            95.606,71                                               956.067,13     10
+7850 TFR SALDO                              11            19.643,56                            216.079,22                        11
+7860 TFR SALDO CTR F.DO TESORERIA           13             9.587,49                            124.637,39                        13
+7865 TFR SALDO RIVALUTAZ. F.DI AZ.          11             8.108,53                             89.193,86                        11
+7875 TFR SALDO RIVALUTAZ.F.TESORER.         13               702,57                              9.133,48                        13
+7880 TFR RIVAL.IMP.SOSTITUTIVA C/AZ         11                11,62             127,86                                           11PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    13
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+7885 TFR RIVAL.IMP.SOSTIT. C/INPS           13                 4,19              54,59                                           13
+7920 RIDUZ. IMPON.FISCALE M.O. MESE          2             3.377,40                                                 6.754,80      2
+7990 ONERI DEDUCIBILI - ASS.SANITAR      1.204                41,72                                                50.241,43   1204
+7991 ONERI DEDUCIBILI - FONDI ENTRO      1.168               151,68                                               177.164,06   1168
+7995 ONERI DEDUCIBILI - TOTALE MESE      1.408               161,50                                               227.405,49   1408
+7996 ONERI DETRAIBILI - POLIZZE ASS         91                12,26                                                 1.116,47     91
+7999 IMPON.FISCALE M.O. ESTERO               4             5.880,08                                                23.520,33      4
+8000 IMPON.FISCALE M.O.                  1.603             3.220,57                                             5.162.579,14   1603
+8002 IMPON.FISCALE M.S.                     15               373,59                                                 5.603,98     15
+8006 IMPON.FISCALE EREDI                     1             7.748,40                                                 7.748,40      1
+8010 IMPON.FISCALE TFR - ANTE 2001          13            18.632,42                                               242.221,57     13
+8011 IMPON.FISCALE TFR - DEDUZIONE          13             3.581,43                                                46.558,59     13
+8012 IMPON.FISCALE TFR - ANTE 2001          13            15.050,99                                               195.662,98     13
+8015 IMPON.FISCALE TFR - POST 2000          18            67.562,19                                             1.216.119,51     18
+8016 IMPON.FISCALE TFR - ALTRE COMP         11            88.090,34                                               968.993,77     11
+8020 IMPON FISCALE TFR - IMPONIBILE         20            37.546,90                                               750.938,01     20
+8021 IMPON FISCALE TFR - MESI ANZIA      4.175                 0                                                                 20
+8022 IMPON FISCALE TFR - REDDITO RI         20            25.351,07                                               507.021,55     20
+8025 IMPON FISCALE TFR - ALIQUOTA          533,82              0                                                                 20
+8030 IMPON.FISCALE RAPPORTO M.O./M.      1.606        37.679.845,11                                        60.513.831.247      1606
+8050 GG DETRAZIONI: SPETTANZA M.C.      44.722                 0                                                               1604
+8060 GG DETRAZIONI: SPETTANZA FUTUR    486.234                 0                                                               1589
+8065 GG DETRAZIONE: SPETTANZA ANNUA    580.110                 0                                                               1605
+8071 ANTICIPO PER COPERTURA NETTO            2               431,26                                862,53                         2
+8075 IMP. FISCALE ANNUO PRESUNTO         1.608            48.266,59                                            77.612.683,48   1608
+8080 IMPON.FISCALE ANNUO PRESUNTO        1.608            47.948,79                                            77.101.670,25   1608
+8100 IRPEF LORDA                         1.588               928,09                                             1.473.810,77   1588
+8105 DETRAZIONI: REDDITO PROGRESSIV      1.603             6.585,84                                            10.557.112,12   1603
+8109 DETRAZIONI: PROGRESSIVO ALTRE       1.240                52,42                                                65.012,11   1240
+8110 DETRAZIONI: ALTRE                   1.252                49,88                                                62.452,35   1252
+8114 DETRAZIONI: PROGRESSIVO CONIUG         93                39,94                                                 3.715,07     93
+8115 DETRAZIONI: CONIUGE                    93                40,19                                                 3.738,39     93
+8119 DETRAZIONI: PROGRESSIVO FIGLI         773                48,29                                                37.334,35    773
+8120 DETRAZIONI: FIGLI                     780                48,48                                                37.816,25    780
+8130 DETRAZIONI: POLIZZE                     5                 1,57                                                     7,89      5
+8135 DETRAZIONI: FIGLI ULTERIORE             7                78,57                                                   550         7
+8150 DETRAZIONI: SPETTANTI               1.443                72,46                                               104.564,88   1443
+8156 PLAFOND RESIDUO                         7            25.477,90                                               178.345,30      7
+8200 IRPEF NETTA M.O.(1001-1004)         1.584               867,12       1.373.533,39                                         1584
+8205 DETRAZIONI: GODUTE                  1.427                70,27                                               100.277,38   1427
+8206 IRPEF EREDI                             1             1.782,13           1.782,13                                            1
+8210 CONG.IRPEF: IMPONIBILE SOGGETT         15             9.842,98                                               147.644,77     15
+8212 CONG.IRPEF: IRPEF LORDA ANNUA          15             2.274,80                                                34.122,04     15
+8214 CONG.IRPEF: DETRAZIONI SPETTAN         15               327,76                                                 4.916,53     15
+8216 CONG.IRPEF: IRPEF VERSATA              15               714,27                                                10.714,07     15
+8220 CONG.IRPEF: IRPEF NETTA (1001-         15             1.232,76          18.491,44                                           15
+8225 CONG.IRPEF: TOTALE IRPEF ANNO          15             1.947,03                                                29.205,51     15
+8233 CREDITO D'IMPOSTA MESE                  1               100                                   100                            1PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    14
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+8240 IRPEF TFR: DETRAZIONI C.A.T. (         35                 5,16                                                   180,75      3
+8241 IRPEF TFR: DETRAZIONI (D.M. 20         13                51,59                                                   670,70     13
+8245 IRPEF TFR: GIA' VERSATA                 6             3.575,70                                                21.454,21      6
+8250 IRPEF TFR (1012)                       19            20.559,50         390.630,56                                           19
+8300 IMPON.ADDIZIONALI IRPEF                15             9.842,98                                               147.644,77     15
+8316 ADD.REG.: RATA A.P. TEORICO ME      1.553                77,94                                               121.044,56   1553
+8320 ADD.REG.: RATA A.P.                 1.553                77,94         121.044,56                                         1553
+8325 ADD.REG.: SALDO A.P.                   16               554,06           8.865,11                                           16
+8330 ADD.REG.: SALDO A.C.                   15               142,76           2.141,53                                           15
+8416 ADD.COM.: RATA A.P. TEORICO ME      1.517                24,67                                                37.425,54   1517
+8420 ADD.COM.: RATA A.P.                 1.517                24,67          37.425,54                                         1517
+8425 ADD.COM.: SALDO A.P.                   15               182,55           2.738,30                                           15
+8456 ADD.COM.: RATA ACCONTO A.C. TE      1.508                11,28                                                17.022,51   1508
+8460 ADD.COM.: RATA ACCONTO A.C.         1.508                11,28          17.022,51                                         1508
+8465 ADD.COM.: SALDO ACCONTO A.C.            8                78,79             630,35                                            8
+8470 ADD.COM.: SALDO A.C.                    1                 5,30               5,30                                            1
+8472 ADD.COM.: IMP.LE ESEN. SALDO           11            10.500                                                  115.500,10     11
+8851 CTR: CONTR.FASCHIM C/DIP            1.127                 8,66                                                 9.762,25   1127
+8852 CTR: CONTR.FASCHIM C/AZ             1.127                21                                                   23.667      1127
+8853 CTR: CONTR.FASI C/DIP                  77                73,34                                                 5.647,18     77
+8854 CTR: CONTR.FASI C/AZ                   77               243                                                   18.711        77
+8856 TFR: QUOTA MESE A FONCHIM           1.082               190,13                                               205.727,48   1082
+8857 TFR: QUOTA MESE ALTRI FONDI            27               184,56                                                 4.983,15     27
+8858 TFR: QUOTA MESE A PREVINDAI            85               542,62                                                46.123,47     85
+8880 DM10: IMP. INPS OPERAI COD 10         208             2.440,92                                               507.712       208
+8881 DM10: IMP.INPS IMPIEGATI COD 1      1.230             3.574,03                                             4.396.065      1230
+8882 DM10: IMP. INPS DIRIGENTI COD          86             9.291,24                                               799.047        86
+8883 DM10: IMP. INPS OPERAI PT COD           8             1.281,75                                                10.254         8
+8884 DM10: IMP. INPS IMPIEGATI PT C         45             2.061,86                                                92.784        45
+8885 DM10: APPRENDISTI                       9             2.278,44                                                20.506         9
+8887 DM10: IMP.INPS DIRIG.OLTRE MAX          1                 1                                                        1         1
+8888 DM10: IMP.INPS OPE A TERMINE            4             1.952,50                                                 7.810         4
+8889 DM10: IMP.INPS IMP A TERMINE           54             2.365,42                                               127.733        54
+8890 DM10: IMP.INPS DIR A TERMINE            1             8.634                                                    8.634         1
+8891 DM10: IMP.INPS IMP.MOBILITA'            7             3.576,14                                                25.033         7
+8893 DM10: APPRENDISTI CONFERMATI            2             2.861,50                                                 5.723         2
+8900 TRATT.USO AUTO                        542               118,24          64.086,31                                          542
+8901 TRATT.USO FORESTERIA                   60               251,94          15.116,69                                           60
+8902 TRATT.RIGHE BLU                       110                18              1.980                                             110
+8903 TRATT.TRENO                            24                45,25           1.086,20                                           24
+8904 TRATT.BUS                              61                12,98             792                                              61
+8909 RECUPERO FONDO SPESE                    5               742,38           3.711,90                                            5
+8910 RECUPERO ANTICIPO                      13               132,87           1.727,38                                           13
+8911 TRATT.AMMENDE E MULTE                  15                77,93           1.169,05                                           15
+8920 RIMBORSO NETTO DA NOTA SPESE          633               387,45                            245.259,59                       633
+9015 TRATT. RATEALE PIG                      2               500              1.000                                               2
+9016 TRATT. PRESTITO FINITALIA              10               247,66           2.476,64                                           10
+9017 TRATT. 1/5 STIPENDIO                   26             1.128,69          29.345,95                                           26PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    15
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+9300 TRATTENUTA SINDACALE                  304                12,64           3.843,42                                          304
+9430 SOMME EROGATE DA INPS E INAIL         120               566,15                                                67.938,05    120
+9431 IRPEF A CREDITO                         1               100                                                      100         1
+9477 TOTALE F24 COMPENSABILE             1.608             1.227,74                                             1.974.210,72   1608
+9497 NETTO NON EROGATO                       1            15.111,06          15.111,06                                            1
+9500 NETTO IN BUSTA                      1.606             2.929,23                                             4.704.357,99   1606
+9531 CED: ONERI DEDUCIBILI               1.408               161,50                                               227.405,49   1408
+9539 CED: IMPONIBILE INPS                1.595             3.672,17                                             5.857.124      1595
+9605 RC: ALIQUOTA CTB INPS RETTIFIC        776,32-             0                                                               1589
+9606 RC: ALIQUOTA CTB INPS              44.958,91              0                                                               1522
+9607 RC: ALIQUOTA CTB DIRIG.             2.284,85              0                                                                 86
+9608 RC: ALIQUOTA CTB INAIL             13.520,87              0                                                               1597
+9616 RC: BASE RETRIB. FERIE              1.608                15,16                                                24.382,18   1608
+9617 RC: BASE RETRIB. P.A.R.             1.608                17,45                                                28.074,16   1608
+9618 RC: BASE RETRIB. P.I.R. (EX.FE      1.608                18,77                                                30.194,91   1608
+9619 RC: BASE RETRIB. BANCA ORE          1.608                18,77                                                30.194,91   1608
+9621 RC: 13MA LIQUIDATA                     16               414                                                    6.624,07     16
+9622 RC: CTB INPS 13MA LIQ.                 16               123,22                                                 1.971,63     16
+9624 RC: CTB INAIL 13MA LIQ.                16                 3,50                                                    56,04     16
+9627 RC: 13MA RATEO MESE                 1.596               272,21                                               434.448,87   1596
+9628 RC: CTB INPS 13MA RATEO             1.510                72,38                                               109.301,29   1510
+9629 RC: CTB DIRIG. 13MA RATEO              86               195,14                                                16.782,32     86
+9630 RC: CTB INAIL 13MA RATEO            1.585                 2,24                                                 3.566,02   1585
+9633 RC: 13MA FONDO M.C.                 1.585               543,64                                               861.678,08   1585
+9634 RC: CTB INPS 13MA FONDO MC          1.499               144,39                                               216.445,41   1499
+9635 RC: CTB DIRIG. 13MA FONDO MC           86               390,28                                                33.564,73     86
+9636 RC: CTB INAIL 13MA FONDO MC         1.574                 4,49                                                 7.069,53   1574
+9639 RC: 13MA ADEGUAMENTO                  809                 0,18                                                   148,89    809
+9640 RC: CTB INPS 13MA ADEG.               754                 0,01                                                    10,27    754
+9641 RC: CTB DIRIG. 13MA ADEG.              49                 0,52                                                    25,83     49
+9642 RC: CTB INAIL 13MA ADEG.              796                 0                                                        1,13    796
+9645 RC: T.F.R. SU 13MA LIQ.                16                30,66                                                   490,66     16
+9646 RC: T.F.R. SU 13MA RATEO            1.596                20,16                                                32.181,47   1596
+9647 RC: T.F.R. SU 13MA FONDO MC         1.585                40,27                                                63.828,01   1585
+9648 RC: T.F.R. SU 13MA ADEG.              817                 0,01                                                    10,87    817
+9651 RC: 14MA LIQUIDATA                     16               324,12                                                 5.186,04     16
+9652 RC: CTB INPS 14MA LIQ.                 16                96,71                                                 1.547,50     16
+9654 RC: CTB INAIL 14MA LIQ.                16                 2,84                                                    45,54     16
+9657 RC: 14MA RATEO                      1.596               219,32                                               350.039,10   1596
+9658 RC: CTB INPS 14MA RATEO             1.510                56                                                   84.573,16   1510
+9659 RC: CTB DIRIG. 14MA RATEO              86               195,14                                                16.782,32     86
+9660 RC: CTB INAIL 14MA RATEO            1.585                 1,81                                                 2.876,96   1585
+9663 RC: 14MA FONDO M.C.                 1.585               438,07                                               694.349,60   1585
+9664 RC: CTB INPS 14MA FONDO MC          1.499               111,69                                               167.428,21   1499
+9665 RC: CTB DIRIG. 14MA FONDO MC           86               390,28                                                33.564,73     86
+9666 RC: CTB INAIL 14MA FONDO MC         1.574                 3,62                                                 5.702,37   1574
+9669 RC: 14MA ADEGUAMENTO                  808                 0,11                                                    96,15    808
+9670 RC: CTB INPS 14MA ADEG.               888                 0                                                        5,67-   888PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    16
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+9671 RC: CTB DIRIG. 14MA ADEG.              49                 0,52                                                    25,83     49
+9672 RC: CTB INAIL 14MA ADEG.              634                 0                                                        0,04    634
+9675 RC: T.F.R. SU 14MA LIQ.                16                24,01                                                   384,17     16
+9676 RC: T.F.R. SU 14MA RATEO            1.596                16,24                                                25.927,72   1596
+9677 RC: T.F.R. SU 14MA FONDO MC         1.585                32,45                                                51.433,48   1585
+9678 RC: T.F.R. SU 14MA ADEG.              866                 0,01                                                     9,54    866
+9687 RC: FERIE PAGATE                       20             1.530,36                                                30.607,32     20
+9688 RC: CTB INPS FERIE PAGATE              16               602,45                                                 9.639,35     16
+9689 RC: CTB DIRIG. FERIE PAGATE             4               136,57-                                                  546,31-     4
+9690 RC: CTB INAIL FERIE PAGATE             20                14,10                                                   282,15     20
+9693 RC: FERIE MAT.                      1.596               340,53                                               543.500,05   1596
+9694 RC: CTB INPS FERIE MAT.             1.510                91,34                                               137.930,12   1510
+9695 RC: CTB DIRIG. FERIE MAT.              86               232,29                                                19.977,33     86
+9696 RC: CTB INAIL FERIE MAT.            1.585                 2,84                                                 4.507,67   1585
+9705 RC: FERIE GODUTE                      750               152,40                                               114.304,91    750
+9706 RC: CTB INPS FERIE GODUTE             719                37,45                                                26.932,97    719
+9707 RC: CTB DIRIG. FERIE GODUTE            31               201,33                                                 6.241,30     31
+9708 RC: CTB INAIL FERIE GODUTE            741                 1,29                                                   956,20    741
+9711 RC: FONDO FERIE                     1.587             2.747,55                                             4.360.362,74   1587
+9712 RC: CTB INPS FONDO FERIE            1.501               718,10                                             1.077.878,77   1501
+9713 RC: CTB DIRIG. FONDO FERIE             86             2.176,29                                               187.161,59     86
+9714 RC: CTB INAIL FONDO FERIE           1.576                22,99                                                36.233,45   1576
+9717 RC: FERIE ADEG.                       490                 3,50                                                 1.718,10    490
+9718 RC: CTB INPS FERIE ADEG.              474                 0,08                                                    41,41    474
+9719 RC: CTB DIRIG. FERIE ADEG              33                10,95                                                   361,63     33
+9720 RC: CTB INAIL FERIE ADEG.             492                 0,02                                                    14,14    492
+9735 RC: PREMIO AC LIQUIDATO                11               296,67                                                 3.263,37     11
+9736 RC: CTB INPS PREMIO LIQ.               11                88,95                                                   978,53     11
+9738 RC: CTB INAIL PREMIO LIQ.              11                 2,78                                                    30,60     11
+9741 RC: PREMIO RATEO MESE               1.513               161,09                                               243.734,86   1513
+9742 RC: CTB INPS PREMIO RATEO           1.513                47,57                                                71.977,90   1513
+9744 RC: CTB INAIL PREMIO RATEO          1.502                 1,38                                                 2.075,46   1502
+9747 RC: PREMIO FONDO M.C.               1.501               321,36                                               482.363,16   1501
+9748 RC: CTB INPS PREMIO FONDO MC        1.501                94,89                                               142.432,39   1501
+9750 RC: CTB INAIL PREMIO FONDO MC       1.490                 2,75                                                 4.100,80   1490
+9753 RC: PREMIO ADEGUAMENTO                 54                23,83-                                                1.286,95-    54
+9754 RC: CTB INPS PREMIO ADEG.              16                23,93-                                                  382,93-    16
+9756 RC: CTB INAIL PREMIO ADEG.             16                 0,64-                                                   10,30-    16
+9797 DIP. PER FATTURAZIONE TIME          1.608                 0                                                               1608
+9799 PAYROLL - VOCE SERVIZIO             1.608                 0                                                               1608
+9801 RC: CTB MBO FONDO                     329               510,12                                               167.830,53    329
+9803 RC: CTB PRRE FONDO                    453               246,62                                               111.719,91    453
+9805 RC: CTB COPL FONDO                      5             4.530,98                                                22.654,91      5
+9806 RC: CTB PR.PRESENZA LIQ                12                20,57                                                   246,90     12
+9807 RC: CTB PR.PRESENZA FONDO           1.206                22,66                                                27.330,08   1206
+9808 RC: CTB MBO AP LIQ.                     2             2.085,62                                                 4.171,25      2
+9809 RC: CTB PRRE AP LIQ.                  232                95,79                                                22.223,33    232
+9811 CO: TOTALE RETR.IN NATURA             634               118,40                                                75.066,39    634PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    17
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+9812 CO: RETRIBUZIONI NO INPS               41               131-                                                   5.371-       41
+9813 CO: RATEI PAGATI                      251               628,12                                               157.660,13    251
+9814 RC: CTB PRPART AP LIQ.                 14               513,56                                                 7.189,95     14
+9821 CO: PER VOCE 9852 - COMPETENZE        239               334,31                                                79.901,61    239
+9822 CO: PER VOCE 9852 - TRATTENUTE        326               535,01                                               174.414,38    326
+9851 CO: RETRIBUZIONE                    1.607             3.250,86                                             5.224.144,70   1607
+9852 CO: TRATTENUTE                        142               665,58-                                               94.512,77-   142
+9853 CO: FESTE PAGATE                        1               237,63                                                   237,63      1
+9854 CO: STRAORDINARIO                     707               154,69                                               109.366,75    707
+9855 CO: MAGG.TURNO/NOTT.                  219               253,88                                                55.599,80    219
+9856 CO: IND.TURNO/REPERIBILITÀ            191               268,90                                                51.360,04    191
+9857 CO: IND.TRASFERTA                     487               217,41                                               105.881,77    487
+9858 CO: INDENNITA' VARIE                  257               321,15                                                82.538,05    257
+9859 CO: INDENNITA' FISSE                  495               129,97                                                64.338,37    495
+9860 CO: GRATIFICHE UNA TANTUM              19               500                                                    9.500        19
+9861 CO: PATTO NON CONCORRENZA               9               939,81                                                 8.458,33      9
+9871 CO: RATEO FERIE/PAR                 1.597               269,82                                               430.913,24   1597
+9872 CO: RATEO 13.MA                     1.596               272,30                                               434.597,76   1596
+9873 CO: RATEO 14.MA                     1.598               215,14                                               343.803,54   1598
+9874 CO: RATEO PREMIO PRESENZA           1.336                30,99                                                41.414,16   1336
+9875 CO: RATEO PREMIO PARTECIPAZION      1.517               159,82                                               242.447,91   1517
+9876 CO: RATEO MBO                         331               916,74                                               303.443,68    331
+9877 CO: RATEO COMPENSI PLURIENNALI          5             8.561,38                                                42.806,91      5
+9878 CO: RATEO PREMI RETE                  459               429,68                                               197.227,03    459
+9885 CO: DELTA PREMIO PART.NE AP            16               368,13-                                                5.890,08-    16
+9886 CO: DELTA MBO AP                        2               361,41                                                   722,83      2
+9891 CO: CONTR.INPS                      1.595             1.069,85                                             1.706.411,01   1595
+9892 CO: CONTR.FONCHIM                   1.083                66,43                                                71.947,80   1083
+9893 CO: CONTR.FASCHIM                   1.127                21                                                   23.667      1127
+9894 CO: CONTR.PREVINDAI                    85               326,75                                                27.774,12     85
+9895 CO: CONTR.FASI                         77               243                                                   18.711        77
+9896 CO: CONTR.INPS 10% SU FONDI         1.408                10,09                                                14.210,67   1408
+9898 CO: INAIL                           1.584                27,94                                                44.260,25   1584
+9900 CO: STORNO CONTR SU RATEI LIQ.        499               130,54-                                               65.142,57-   499
+9911 CO: CONTR.RATEO FERIE/PAR           1.597                80,58                                               128.701,83   1597
+9912 CO: CONTR.RATEO 13.MA               1.597                81,20                                               129.686,86   1597
+9913 CO: CONTR.RATEO 14.MA               1.599                63,99                                               102.333,18   1599
+9914 CO: CONTR.RATEO PREMIO PRESENZ      1.336                 9,36                                                12.509,38   1336
+9915 CO: CONTR.RATEO PREMIO PARTECI      1.517                48,55                                                73.660,13   1517
+9916 CO: CONTR.RATEO MBO                   331               253,17                                                83.800,78    331
+9917 CO: CONTR.RATEO COMPENSI PLURI          5             2.265,49                                                11.327,46      5
+9918 CO: CONTR.RATEO PREMI RETE            459               127,34                                                58.449,63    459
+9919 CO: TOT.CONTR. SU RATEI             1.603               374,59                                               600.469,25   1603
+9925 CO: DELTA CONTR.SU PR.PART.NE          16               112,86-                                                1.805,83-    16
+9926 CO: DELTA CONTR.SU MBO AP               2               102,10                                                   204,21      2
+9931 CO: TFR MESE                        1.601               233,05                                               373.114,12   1601
+9932 CO: TFR SU RATEI                    1.600                35,78                                                57.254,77   1600
+9933 CO: RIV.FONDO TFR                   1.041                61,52                                                64.046,37   1041PRES86       1  XXXXXXXXXXXXXXXXXXXXXXXXXX                                  DATA  08 MARZO     2014  ORA  10:44:44      PAGINA    18
+
+ RIEPILOGO PER :                  FEBBRAIO   2014
+
+
+VOCE      DESCRIZIONE                 QUOTA     IMP.UNITARIO           TRATTENUTE          COMPETENZE        VOCI CALCOLO    N.DIP.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ 
+9940 CO: TOT.RETR.CORRENTE               1.595             3.521,57                                             5.616.912,67   1595
+9941 CO: CONTROLLO                           1                 0,18-                                                    0,18-     1
+9948 CO: TOTALE RATEI                    1.603             1.270,52                                             2.036.654,23   1603
+9949 TOTALE DELTA RATEI AP                  16               322,95-                                                5.167,25-    16
+9950 CO: TOTALE RETRIBUZIONE             1.608             4.756,46                                             7.648.399,65   1608
+9952 CO: TOTALE CONTRIBUTI               1.608             1.517,85                                             2.440.706,91   1608
+9954 CO: TOTALE TFR                      1.603               308,43                                               494.415,26   1603
+9956 CO: TOTALE COSTO                    1.608             6.581,79                                            10.583.521,82   1608
+9960 CO: FTE                             1.566,09              0                                                               1587
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+        T O T A L I                                                      2.989.275,05       7.693.633,04
