@@ -42,8 +42,8 @@ int main (int argc, char ** argv) {
 					number = atoi(tok);
 					
 					if (check_prime (number)) {
-//						sprintf(buf_out, "\d\n\0", number); 
-//						write(fout, buf_out, (int) strlen(buf_out));
+						sprintf(buf_out, "%d\n", number); 
+						write(fout, buf_out, (int) strlen(buf_out));
 						printf("%d \n", number);
 					}
 					
@@ -63,6 +63,8 @@ int main (int argc, char ** argv) {
 	
 int check_prime (int number) {
 	int i;
+	
+	if (number == 2) return 1;
 	
 	if (number%2 == 0) return 0;
 	
