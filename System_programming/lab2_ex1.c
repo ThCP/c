@@ -6,11 +6,13 @@
 
 #define BUF_SIZE 1024
 
+int check_prime (int number);
+
 int main (int argc, char ** argv) {
 	
 	int finn, fout;
 	//FILE * finn, *fout;
-	char buffer[BUF_SIZE], *tok;
+	char buf_int[BUF_SIZE], buf_out[BUF_SIZE], *tok;
 	int number, count;
 	
 	if (argc != 3) {
@@ -29,15 +31,21 @@ int main (int argc, char ** argv) {
 			fprintf (stderr, "Output file could not be created.\n");
 			exit(1);
 		} else {
-			while ( (count = read (finn, buffer, BUF_SIZE) > 0) ){
-				if (buffer[strlen(buffer)-2] == '\n') {
-					buffer[strlen(buffer)-2] = '\0';
+			while ( (count = read (finn, buf_int, BUF_SIZE) > 0) ){
+			
+				if (buf_int[strlen(buf_int)-2] == '\n') {
+					buf_int[strlen(buf_int)-2] = '\0';
 				}
 				
-				tok = strtok(buffer, "\n");
+				tok = strtok(buf_int, "\n");
 				while (tok != NULL) {
 					number = atoi(tok);
-					printf("%d \n", number);
+					
+					if (check_prime (number)) {
+//						sprintf(buf_out, "\d\n\0", number); 
+//						write(fout, buf_out, (int) strlen(buf_out));
+						printf("%d \n", number);
+					}
 					
 					tok = strtok (NULL, "\n");
 				}
@@ -51,5 +59,17 @@ int main (int argc, char ** argv) {
 	
 	return 0;
 
-}
+}	
 	
+int check_prime (int number) {
+	int i;
+	
+	if (number%2 == 0) return 0;
+	
+	for (i = 3; i < number/2; i++) {
+		if (number%i == 0) return 0;
+	}
+	return 1;
+
+}
+
