@@ -14,7 +14,10 @@ int main (int argc, char ** argv) {
 	for (number = 2; number < last; number++) {
 		
 		if (number == 2) prime = 1;
-		for ( i = 2; i <= number/i; i++ ) {
+		else if (number % 2 == 0)  {
+			continue;
+		}
+		for ( i = 3; i <= number/i; i+=2 ) {
 			if  (number%i == 0) { 
 				prime = 0;
 				break;
