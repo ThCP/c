@@ -11,6 +11,7 @@ struct graph {  int V; // number of vertices
 
 Graph GRAPHinit(int V)
 {
+    int i, j;
     Graph G = malloc( sizeof *G );
     if (G == NULL)
     {
@@ -30,10 +31,23 @@ void GRAPHinsertE (Graph G, Edge e)
     int v = e.v-1;
     int w = e.w-1;
 
-    if (G->adj[v][w] == 0) G->E++;
+    int i, j;
 
+    if (G->adj[v][w] == 0.0)
+    {
+        printf("Inserted\n");
+        G->E++;
+    }
     G->adj[v][w] = e.weight;
     G->adj[w][v] = e.weight;
+
+    for (i = 0; i < G->V; i++)
+    {
+        for (j = 0; j < G->V; j++)
+            printf("%.1f", G->adj[i][j]);
+        printf("\n");
+    }
+
 }
 
 
@@ -42,7 +56,7 @@ void GRAPHremoveE (Graph G, Edge e)
     int v = e.v-1;
     int w = e.w-1;
 
-    if (G->adj[v][w] != 0) G->E--;
+    if (G->adj[v][w] != 0.0) G->E--;
 
     G->adj[v][w] = 0;
     G->adj[w][v] = 0;
@@ -81,7 +95,7 @@ Edge EDGE (int v, int w, double weight)
 double **MATRIXinit (int r, int c, int val)
 {
     double ** nP = NULL;
-    int i;
+    int i, j;
 
     nP = ( double ** ) malloc(r * sizeof ( double * ));
 
@@ -101,6 +115,10 @@ double **MATRIXinit (int r, int c, int val)
         }
     }
 
+    for (i = 0; i < r; i++)
+        for (j = 0; j < c; j++)
+            nP[i][j] = 0.0;
+
     return nP;
 }
 
@@ -112,10 +130,8 @@ void GRAPHshow (Graph G)
 
     for (i = 0; i < V; i++)
     {
-        for (j = 0; j < V; j++);
-        {
-            printf("%lf ", G->adj[i][j]);
-        }
+        for (j = 0; j < V; j++)
+            printf("%.1f\t", G->adj[i][j]);
         printf("\n");
     }
 

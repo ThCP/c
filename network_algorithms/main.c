@@ -9,13 +9,14 @@ int main(int argc, char ** argv)
 {
     Graph G = NULL;
 
-    if (argc != 2)
-    {
-        fprintf(stderr, "Wrong number of arguments.\n");
-        exit(EXIT_FAILURE);
-    }
+//    if (argc != 2)
+//    {
+//        fprintf(stderr, "Wrong number of arguments.\n");
+//        exit(EXIT_FAILURE);
+//    }
 
-    G = read_file(argv[1]);
+    G = read_file("in");
+//    G = read_file(argv[1]);
 
     GRAPHshow(G);
 
