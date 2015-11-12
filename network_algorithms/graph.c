@@ -1,5 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
+
 #include "graph.h"
 
 double **MATRIXinit (int r, int c, int val);
@@ -11,7 +10,6 @@ struct graph {  int V; // number of vertices
 
 Graph GRAPHinit(int V)
 {
-    int i, j;
     Graph G = malloc( sizeof *G );
     if (G == NULL)
     {
@@ -31,23 +29,12 @@ void GRAPHinsertE (Graph G, Edge e)
     int v = e.v-1;
     int w = e.w-1;
 
-    int i, j;
-
     if (G->adj[v][w] == 0.0)
     {
-        printf("Inserted\n");
         G->E++;
     }
     G->adj[v][w] = e.weight;
     G->adj[w][v] = e.weight;
-
-    for (i = 0; i < G->V; i++)
-    {
-        for (j = 0; j < G->V; j++)
-            printf("%.1f", G->adj[i][j]);
-        printf("\n");
-    }
-
 }
 
 
