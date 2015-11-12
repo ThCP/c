@@ -38,6 +38,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="network_algorithms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="network_algorithms.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
