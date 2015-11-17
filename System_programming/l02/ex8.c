@@ -1,89 +1,74 @@
-/**
-    Write a simple producer-consumer program, in which the queue between
-    the two processes (father and son, or two brothers) is at most of 4 tokens, each token
-    being a character. Use semaphores to protect the producer-consumer operations.
-
-    sysprog2
-
-    Riccardo Cappuzzo
-
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+#include "semaphore.h"
 #include <string.h>
 #include <errno.h>
+#include <unistd.h>
+#include <fcntl.h>
 
+#define MAX_QUEUE 4
+#define MAX_REP 5 // program stops after 5 iterations, it would run forever otherwise
 
-void semaphore_init (int *sw);
-void semaphore_signal (int *sw);
-void semaphore_wait (int *sw);
+sem_t *empty, *full;
+
+void Producer();
+void Consumer();
 
 int main()
 {
     pid_t pid;
-    int sem[2];
 
-    semaphore_init(sem);
-    pid = fork();
+    /*
+    In order to use the posix semaphores I need to allocate memory shared between the producer and the consumer.
+    I am using two named semaphores instead.
+    */
+    empty = sem_open("empty", O_CREAT, S_IRUSR | S_IWUSR, MAX_QUEUE); // the empty semaphore is init. with the max value
+    full = sem_open("full", O_CREAT, S_IRUSR | S_IWUSR, 0); // the full semaphore is init. with value 0
 
-    if (pid == 0)
-    {
-        // child process
-        printf("Starting child\n");
-        semaphore_wait(sem);
-        printf("wait1\n");
-        semaphore_wait(sem);
-        printf("wait2\n");
-        semaphore_wait(sem);
-        printf("wait3\n");
-        semaphore_wait(sem);
-        printf("wait4\n");
-        printf("Child completed wait\n");
-    } else
-    {
-        // parent process
-        printf("Starting parent\n");
-        semaphore_signal(sem);
-        printf("signal1\n");
-        semaphore_signal(sem);
-        printf("signal2\n");
-        semaphore_signal(sem);
-        printf("signal3\n");
-        semaphore_signal(sem);
-        printf("signal4\n");
-        printf("Parent completed signal\n");
+    pid = fork(); // create the child
 
+    if (pid == -1) { // fork error check
+        fprintf(stderr, "%s\n", strerror(errno));
+        exit(EXIT_FAILURE);
+    }
+
+    if (pid == 0) {
+        //child process
+        sleep(3);
+        printf("Child process\n");
+        Consumer();
+    } else {
+        //parent process
+        printf("Parent process\n");
+        Producer();
     }
 
     return 0;
 }
 
-void semaphore_init (int *sw)
+void Producer()
 {
-    if (pipe(sw) == -1)
+    int val, i = 0;
+    while(i<MAX_REP) // in this way the program does not run forever
     {
-        fprintf(stderr, "%s\n", strerror(errno));
-        exit(EXIT_FAILURE);
+        printf("Producing\n");
+        sem_wait(empty);
+        printf("Enqueuing\n");
+        sem_post(full);
+        i++;
     }
 }
 
-void semaphore_wait (int *sw)
+void Consumer()
 {
-    char buffer;
-    if (read(sw[0], &buffer, 1) != 1)
+    int val;
+    int i = 0;
+    while(i<MAX_REP) // in this way the program does not run forever
     {
-        fprintf(stderr, "%s\n", strerror(errno));
-        exit(EXIT_FAILURE);
-    }
-}
-
-void semaphore_signal (int *sw)
-{
-    if (write(sw[1], "x", 1) != 1)
-    {
-        fprintf(stderr, "%s\n", strerror(errno));
-        exit(EXIT_FAILURE);
+        sem_wait(full);
+        printf("Dequeuing\n");
+        sem_post(empty);
+        printf("Consuming\n");
+        i++;
     }
 }
