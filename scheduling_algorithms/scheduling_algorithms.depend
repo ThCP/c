@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1448494931 source:c:\users\riccardo\programmazione\scheduling_algorithms\queue_graphics.c
+	"queue_graphics.h"
+
+1448495193 c:\users\riccardo\programmazione\scheduling_algorithms\queue_graphics.h
+	<stdio.h>
+
+1448495168 source:c:\users\riccardo\programmazione\scheduling_algorithms\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_graphics.h"
+
