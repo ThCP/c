@@ -1,96 +1,88 @@
+/**
+	
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
+#include <unistd.h>
 
 void * reader (void * arg);
 void * listener (void * arg);
 
-int counter = 0;
-pthread_mutex_t lock1, lock2;
+int counter = 0; // counter is shared among all the threads
 
-
+pthread_mutex_t lock; // lock is shared among all the threads
 
 int 
 main (int argc, char *argv[])
 {
-	pthread_t tids[4];
-	int i;
+	pthread_t tid1, tid2, tid3, tid4;
+	
+	// initialize the mutex 
+	pthread_mutex_init (&lock, NULL);
 
-	pthread_mutex_init (&lock1, NULL);	
-	pthread_mutex_init (&lock2, NULL);	
-		
-	i=0;
-	/*
-	if (pthread_create(&tids[0], NULL, reader, (void *) & i))
+	// create the reader process, which receives from stdin the value to add to the counter		
+	if (pthread_create(&tid1, NULL, reader, NULL))
+	{
+		fprintf (stderr, "Error while creating a thread.\n");
+		exit(1);					
+	}
+
+	// create the 3 listener processes, which check the value of the counter and decrease it 
+	if (pthread_create(&tid2, NULL, listener, NULL))
+	{
+		fprintf (stderr, "Error while creating a thread.\n");
+		exit(1);					
+	}
+	if (pthread_create(&tid3, NULL, listener, NULL))
+	{
+		fprintf (stderr, "Error while creating a thread.\n");
+		exit(1);					
+	}
+	if (pthread_create(&tid4, NULL, listener, NULL))
 	{
 		fprintf (stderr, "Error while creating a thread.\n");
 		exit(1);					
 	}
 	
-	//pthread_join (tids[0], NULL);
+	// join all the threads
+	pthread_join(tid1, NULL);
+	pthread_join(tid2, NULL);
+	pthread_join(tid3, NULL);
+	pthread_join(tid4, NULL);
 	
-	//return 0;
-	
-	*/
-	
-	for (i = 1; i < 4; i += 1)
-	{	//printf("creating listener threads\n");
-		printf("i = %d\n", i);
-		if (pthread_create(&tids[i], NULL, listener, (void *) &i))
-		{
-			fprintf (stderr, "Error while creating a thread.\n");
-			exit(1);					
-		}
-	}
-	
-	while (1)
-	{
-		printf("Insert a counter value: ");
-		scanf("%d", &val);
-		
-		counter+=val; 
-		
-	}
-	
-	for (i = 1; i < 4; i++) {
-		pthread_join(tids[i], NULL);
-	}
-	
-	pthread_mutex_destroy(&lock1);
+	// destroy the mutex
+	pthread_mutex_destroy(&lock);
 		
 	return 0;
 }
 
 void * reader (void * arg) {
-	int val, *a;
-	a = (int * ) arg;
-	printf("reader arg = %d\n", *a);
-	while (1)
+	int val;
+	while (scanf("%d", &val)>0) // read from input 
 	{
-		pthread_mutex_lock(&lock1);
-		printf("Insert a counter value: ");
-		scanf("%d", &val);
-		
-		counter+=val; 
-		pthread_mutex_unlock(&lock2);
+		pthread_mutex_lock(&lock); // increase the counter value, I need a mutex
+									// in order to avoid concurrent access
+		counter+=val;
+		pthread_mutex_unlock(&lock); // free the mutex
 	}
 	pthread_exit(NULL);
 }
 
 void * listener (void * arg) {
-	int i;
-	int * tid;
-	
-	tid = (int *) arg;
+	pthread_t tid = pthread_self();
+
 	while (1)
 	{	
-		while (counter > 0)
+		//		
+		if (counter > 0)
 		{
-			pthread_mutex_lock (&lock2);			
+			pthread_mutex_lock (&lock);			
 			counter--; 
-			printf("Tid = %d counter value = %d\n", *tid, counter);
-			sleep(2);
-			pthread_mutex_unlock(&lock1);
+			printf("Tid = %d counter value = %d\n", (int) tid, counter);
+			pthread_mutex_unlock(&lock);
+			sleep(1);
 		}
 	}
 	pthread_exit(NULL);

@@ -61,8 +61,8 @@ void * runner (void * arg) {
 	
 	tid = (int *) arg;
 	
-	results[*tid] = rand() % RAND_LIMIT +1; // random values generated here are not randomly distributed
-	
+	results[*tid] = rand() % RAND_LIMIT +1; // random values generated here are not randomly distributed since
+											// I am using the mod and this tends to return lower values
 	pthread_exit(NULL);
 }
 
