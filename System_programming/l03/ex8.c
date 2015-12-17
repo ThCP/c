@@ -1,26 +1,41 @@
+/**
+	Write a multi-threaded program that evaluates the math series
+	defined as sum of x^i for i going from 0 to N, where x
+	and N are passed as input. 
+	Each thread evaluats a single x^i instance, referring to
+	its index of creation, and adds it to the final result.
+	Once every thread completes its job, the main program 
+	displays the final result.
+	
+	sysprog03
+	
+	Riccardo Cappuzzo
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
-#include <string.h>
-#include <math.h>
+#include <math.h> // I am exploiting the math library for the pow function
 
+// Allocation functions are needed since I don't know a priori
+// the number of operations I'll have to execute.
 pthread_t * allocate_tids ( int N );
 struct args * allocate_args ( int N );
 float * allocate_results( int N );
+
 void * runner (void *arg);
 
 struct args {
 	int tid;
-	float base;
 };
 
+float base;
 float *results;
 float sum = 0;
 
 int 
 main (int argc, char *argv[])
 {
-	float x;
 	int N;
 	int i;
 	pthread_t *tids;
@@ -33,9 +48,9 @@ main (int argc, char *argv[])
 		exit(1);
 	}
 		
-	N = atoi(argv[2]);
+	N = atoi(argv[2]); // Read the upper limit of the sum
 	
-	N = N+1;
+	N = N+1; // so that the sum actually runs from 0 to N instead of from 0 to N-1
 	
 	if (N <=0)
 	{
@@ -43,16 +58,16 @@ main (int argc, char *argv[])
 		exit(1);
 	}
 	
-	sscanf(argv[1], "%f", &x);
+	sscanf(argv[1], "%f", &base);
 	
 	results = allocate_results(N);
 	args_array = allocate_args(N);
 	tids = allocate_tids(N);
-	
+		
+	// Assign values to the args of the runner function
 	for (i = 0; i < N; i += 1)
 	{
 			args_array[i].tid = i;
-			args_array[i].base = x;
 	}
 	
 	for (i = 0; i < N; i += 1)
@@ -69,12 +84,14 @@ main (int argc, char *argv[])
 		pthread_join(tids[i], NULL);
 	}
 	
+	// This is not required
 	for (i = 0; i < N; i += 1)
 	{
-		printf("The result of %f to the %d is %f\n", x, i, results[i]);
+		printf("The result of %g to the %d is %g\n", base, i, results[i]);
 	}
 	
-	printf("The sum is %f\n", sum);
+	// Final result
+	printf("The sum is %g\n", sum); 
 	
 	return 0;
 }
@@ -86,13 +103,13 @@ void * runner (void * arg) {
 	args = (struct args *) arg;
 	exp = (float)args->tid;
 	
-	results[args->tid] = pow(args->base, exp);
-	sum=sum+pow(args->base, exp);
+	results[args->tid] = pow(base, exp);
+	sum=sum+pow(base, exp);
 	
 	pthread_exit(NULL);
 }
 
-
+/* Allocation functions below, same as other exercises */
 pthread_t * allocate_tids ( int N ){
 	pthread_t *np_t;
 	

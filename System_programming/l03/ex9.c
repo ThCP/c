@@ -1,14 +1,32 @@
+/**
+	Write a multi-threaded program to search if a number N is 
+	prime by checking if it is divisible by any number in the
+	range [2, N/2]. 
+	The program receives in input the number N and the number
+	of threads to use P.
+	Each thread checks a subset of the interval.
+	As soon as a thread detects that the number isn't prime,
+	the threads stop.
+	
+	sysprog03
+	
+	Riccardo Cappuzzo 
+
+*/
+
+
 #include <stdio.h>
 #include <pthread.h>
 #include <stdlib.h>
 
 
-int prime = 1;
+int prime = 1; // flag for detecting non-prime numbers
+				// numbers are prime until a divisor is found
 
 struct args {
-	long start;
-	long end;
-	long N; 
+	long start; // start of the subset of the interval
+	long end; // end of the subset of the interval
+	long N; // input number
 };
 	
 void * runner (void *arg); 
@@ -18,12 +36,12 @@ pthread_t * allocate_tids ( int P );
 int 
 main (int argc, char *argv[])
 {
-	int P;
-	long N;
+	int P; // number of threads
+	long N; // number to check
 	pthread_t *tids;
 	struct args *args_array;
-	long q, r; 
-	int i, s;
+	long q; // quotient
+	int i;
 	
 	if (argc != 3)
 	{
@@ -32,7 +50,7 @@ main (int argc, char *argv[])
 		exit(1);
 	}
 	
-	N = atol(argv[1]);
+	N = atol(argv[1]); // fetch the input number
 	
 	if (N <=0)
 	{
@@ -40,7 +58,7 @@ main (int argc, char *argv[])
 		exit(1);
 	}
 	
-	P = atoi(argv[2]);
+	P = atoi(argv[2]); //fetch the number of threads
 	
 	if (P <=0)
 	{
@@ -48,23 +66,18 @@ main (int argc, char *argv[])
 		exit(1);
 	}
 	
-	if (P > N)
+	if (P > N) 
 	{
 		fprintf (stderr, "The number of threads must be smaller than the input number\n");
 		exit(1);
 	}
 	
-	q = (N/2)/(long)P;
-	r = (N/2)%(long)P;
-	
-	printf("q = %ld\n", q);
-	printf("r = %ld\n", r);
+	q = (N/2)/(long)P; // find the width of the intervals
 	
 	args_array = allocate_struct ( P );
 	tids = allocate_tids ( P );
 	
-	/* the following for loop is used to divide the numbers to try among the P threads*/
-
+	/* the following instructions are used to define the sub-intervals among the P threads */
 	for (i = 0; i < P; i += 1)
 	{
 			args_array[i].start = q*i+1;
@@ -73,13 +86,8 @@ main (int argc, char *argv[])
 	}
 	args_array[i-1].end = N/2+(N%2);
 	args_array[0].start = 2;
-	/*
-	for (i = 0; i < P; i++)
-	{
-		printf ("s = %ld\n", args_array[i].start);
-		printf ("e = %ld\n", args_array[i].end);
-	}
-	*/
+
+	/* threads are created and start running */
 	for (i = 0; i < P; i += 1)
 	{
 		if (pthread_create(&tids[i], NULL, runner, (void *) &args_array[i]))
@@ -89,6 +97,7 @@ main (int argc, char *argv[])
 		}	
 	}
 	
+	/* the main thread waits the end of the runner threads */
 	for (i = 0; i < P; i += 1)
 	{
 		pthread_join(tids[i], NULL);
@@ -115,10 +124,8 @@ void * runner (void * arg) {
 		if ((args->N % i) == 0 || prime == 0)
 		{
 			prime = 0;
-			//printf("The number isn't prime\n");
-			//printf("The first divisor is %d\n", i);
-			//pthread_exit(NULL);
-			break;
+			printf("%d is a divisor\n", i);
+			pthread_exit(NULL);
 		}
 	}
 	pthread_exit(NULL);

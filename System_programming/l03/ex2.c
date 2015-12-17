@@ -35,15 +35,15 @@ int main (int argc, char **argv)
     printf("Error in pthread_create()\n");
     exit(1);
   }
-
+	//check the value of the counter
   for (i = 0; i < LOOP_FOR; i++) {
     sleep(SLEEP_FOR);
     printf("value of counter = %lld\n", counter);
   }
 
-  loop = 0;
+  loop = 0; // end the loop so that the runner can complete
 
-  pthread_join(tid, NULL);
+  pthread_join(tid, NULL); 
 
   return 0;
 }

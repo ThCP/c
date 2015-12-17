@@ -18,7 +18,6 @@
 void * runner (void * arg){
   int *val;
   val = (int *) arg;
-  // printf("inside thread %d\n", *val);
   pthread_exit(NULL);
 }
 
@@ -37,22 +36,21 @@ int main (int argc, char **argv)
   option = argv[1][0];
   
   switch (option){
-  case 'P':
+  case 'P': // generate processes
     printf("Processes\n");
     for (i = 0; i < LARGE_NUMBER; i++){
       pids[i] = fork();
       if (pids[i] == 0)
       {// child process
-	//printf("inside child process %d\n", i);
-	exit(0);
+		exit(0);
       } else {
 	// parent process
-	wait(&status);
+		wait(&status);
       }
     }
     printf("Created %d processes\n", i);
     break;
-  case 'T':
+  case 'T': // generate threads
     printf("Threads\n");
     for (i = 0; i < LARGE_NUMBER; i++){
       if (pthread_create(&tids[i], NULL, runner, (void *) &i)){
