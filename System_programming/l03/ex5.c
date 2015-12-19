@@ -63,13 +63,13 @@ void child1(void)
 	printf("Child1: The shared variable is now %d\n", shared_variable);
 	shared_variable = 10;
 	printf("Child1: The shared variable is now %d\n", shared_variable);
-	sleep(2);
+	sleep(5);
 	pthread_create(&tid1, NULL, runner1, (void*) &shared_variable);
 	pthread_create(&tid2, NULL, runner2, (void*) &shared_variable);
 	
 	pthread_join(tid1, NULL);
 	pthread_join(tid2, NULL);
-	sleep(3);
+	sleep(5);
 	printf("End of child1\n");
 }
 
@@ -86,10 +86,11 @@ void child2(void)
 	
 	pthread_join(tid1, NULL);
 	pthread_join(tid2, NULL);
-	sleep(5);
-	//printf("Now switching to exec.\n");
+	sleep(2);
+	printf("Now switching to exec.\n");
 	
-	//execlp("echo", "echo", "test", (char *) 0);	
+	execlp("echo", "echo", "test", (char *) 0);	
+	printf("End of child 2\n");
 }
 
 void *runner1 (void *arg)
@@ -123,7 +124,7 @@ void *runner4 (void *arg)
 {
 	int *var = (int *)arg;
 	printf("inside child 2 - thread2: The shared variable is now %d\n", shared_variable);
-	shared_variable = shared_variable*45;
+	shared_variable = shared_variable*22;
 	sleep(1);
 	printf("inside child 2 - thread2: The shared variable is now %d\n", shared_variable);
 }

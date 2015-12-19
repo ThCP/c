@@ -67,7 +67,7 @@ main (int argc, char *argv[])
 	// Assign values to the args of the runner function
 	for (i = 0; i < N; i += 1)
 	{
-			args_array[i].tid = i;
+		args_array[i].tid = i;
 	}
 	
 	for (i = 0; i < N; i += 1)
@@ -88,6 +88,7 @@ main (int argc, char *argv[])
 	for (i = 0; i < N; i += 1)
 	{
 		printf("The result of %g to the %d is %g\n", base, i, results[i]);
+		sum+=results[i];
 	}
 	
 	// Final result
@@ -104,7 +105,6 @@ void * runner (void * arg) {
 	exp = (float)args->tid;
 	
 	results[args->tid] = pow(base, exp);
-	sum=sum+pow(base, exp);
 	
 	pthread_exit(NULL);
 }

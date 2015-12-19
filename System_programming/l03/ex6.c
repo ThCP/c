@@ -1,5 +1,16 @@
 /**
+	Write a program with 4 threads and 1 counter. One thread should wait for
+	input ; as soon as an input value is available, the value should be
+	added to the counter. The other threads should stay in a loop, 
+	in which they should:
+	1 - wait for the counter to be greater than zero
+	2 - decrement the counter and print a message with their own ID 
+	and the counter value
+	3 - sleep for one second
 	
+	sysprog03
+	
+	Riccardo Cappuzzo
 */
 
 #include <stdlib.h>

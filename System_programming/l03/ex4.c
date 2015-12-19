@@ -38,7 +38,7 @@ int main (int argc, char **argv)
 {
   pthread_t tid;
   int i;
-
+	long long c;
 	pthread_mutex_init (&lock, NULL); // initialization of mutex
 
   if (pthread_create(&tid, NULL, runner, NULL)){
@@ -49,8 +49,10 @@ int main (int argc, char **argv)
   for (i = 0; i < LOOP_FOR; i++) {
     sleep(SLEEP_FOR);
     pthread_mutex_lock(&lock); // protect the print operation
-    printf("value of counter = %lld\n", counter);
+    c = counter;
     pthread_mutex_unlock(&lock);
+    printf("value of counter = %lld\n", c);
+    
   }
 
   loop = 0; // end the loop so that the runner can complete

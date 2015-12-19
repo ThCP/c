@@ -24,9 +24,9 @@ int prime = 1; // flag for detecting non-prime numbers
 				// numbers are prime until a divisor is found
 
 struct args {
-	long start; // start of the subset of the interval
-	long end; // end of the subset of the interval
-	long N; // input number
+	long long start; // start of the subset of the interval
+	long long end; // end of the subset of the interval
+	long long N; // input number
 };
 	
 void * runner (void *arg); 
@@ -37,10 +37,10 @@ int
 main (int argc, char *argv[])
 {
 	int P; // number of threads
-	long N; // number to check
+	long long N; // number to check
 	pthread_t *tids;
 	struct args *args_array;
-	long q; // quotient
+	long long q; // quotient
 	int i;
 	
 	if (argc != 3)
@@ -58,6 +58,19 @@ main (int argc, char *argv[])
 		exit(1);
 	}
 	
+	if (N == 1)
+	{
+		printf ("The number %d isn't prime.\n", 1);
+		return 0;
+	}
+	
+	if (N %2 == 0 && N != 2)
+	{
+		printf ("2 is a divisor.\n");
+		printf ("The number %lld isn't prime.\n", N);
+		return 0;
+	}
+	
 	P = atoi(argv[2]); //fetch the number of threads
 	
 	if (P <=0)
@@ -72,21 +85,29 @@ main (int argc, char *argv[])
 		exit(1);
 	}
 	
-	q = (N/2)/(long)P; // find the width of the intervals
+	q = (N/2)/(long long)P; // find the width of the intervals
 	
 	args_array = allocate_struct ( P );
 	tids = allocate_tids ( P );
 	
 	/* the following instructions are used to define the sub-intervals among the P threads */
-	for (i = 0; i < P; i += 1)
+	args_array[0].start = 2;
+	args_array[0].end = args_array[0].start+q;
+	args_array[0].N = N;
+	
+	for (i = 1; i < P; i += 1)
 	{
-			args_array[i].start = q*i+1;
-			args_array[i].end = q*(i+1);
+			args_array[i].start = args_array[i-1].end+1;
+			args_array[i].end = args_array[i].start+q;
 			args_array[i].N = N;
 	}
-	args_array[i-1].end = N/2+(N%2);
-	args_array[0].start = 2;
-
+	
+	for (i = 0; i < P; i += 1)
+	{
+		printf("s = %lld e = %lld\n", args_array[i].start, args_array[i].end);
+	}
+	
+	
 	/* threads are created and start running */
 	for (i = 0; i < P; i += 1)
 	{
@@ -105,9 +126,9 @@ main (int argc, char *argv[])
 	
 	if (prime == 1)
 	{
-		printf("The number is prime.\n");
+		printf("The number %lld is prime.\n", N);
 	} else {
-		printf ("The number isn't prime.\n");
+		printf ("The number %lld isn't prime.\n", N);
 	}
 	
 	return 0;
@@ -115,16 +136,16 @@ main (int argc, char *argv[])
 
 void * runner (void * arg) {
 	struct args * args;
-	int i;
+	long long i;
 	
 	args = (struct args *) arg;
-	
-	for (i = args->start; i < args->end && prime != 0; i += 1)
+	if (args->start % 2 == 0) args->start++;
+	for (i = args->start; i <= args->end && prime != 0; i += 2) // 
 	{
-		if ((args->N % i) == 0 || prime == 0)
+		if ((args->N % i) == 0 && (args->N != i))
 		{
 			prime = 0;
-			printf("%d is a divisor\n", i);
+			printf("%lld is a divisor\n", i);
 			pthread_exit(NULL);
 		}
 	}

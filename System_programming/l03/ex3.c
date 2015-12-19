@@ -92,6 +92,9 @@ main (int argc, char *argv[])
 	close(fd1);
 	close(fd2);
 	
+	pthread_mutex_destroy(&lock1);
+	pthread_mutex_destroy(&lock2);
+	
 	
 	return 0;
 }

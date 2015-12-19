@@ -19,7 +19,6 @@
 long long counter = 0;
 int loop = 1;
 
-pthread_mutex_t lock;
 
 void * runner (void * arg){
   
@@ -34,8 +33,6 @@ int main (int argc, char **argv)
 {
   pthread_t tid;
   int i;
-
-	pthread_mutex_init (&lock);
 
   if (pthread_create(&tid, NULL, runner, NULL)){
     printf("Error in pthread_create()\n");
